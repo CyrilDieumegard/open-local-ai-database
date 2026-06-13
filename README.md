@@ -1,5 +1,7 @@
 # Open Local AI Database
 
+![Open Local AI Database cover](assets/open-local-ai-database-cover.svg)
+
 An open, practical database of local AI models, speech models and hardware compatibility metadata.
 
 Maintained by **Cyril Dieumegard** and powered by [LocalClaw](https://localclaw.io/), a native macOS control center for OpenClaw and local AI workflows.
@@ -9,6 +11,8 @@ This repository is designed for builders who need a clean answer to one deceptiv
 > What can this machine actually run locally?
 
 ## What is inside
+
+![Dataset map showing LLM, speech and machine datasets](assets/dataset-map.svg)
 
 | Dataset | JSON | CSV | Records |
 | --- | --- | --- | ---: |
@@ -27,6 +31,12 @@ The data focuses on practical local usage:
 - TTS / ASR language and feature metadata
 - Apple Silicon and NVIDIA GB10-class machine metadata
 - LocalClaw page URLs for deeper human-readable guidance
+
+## Compatibility workflow
+
+![Local AI compatibility workflow](assets/compatibility-workflow.svg)
+
+The database is built for practical local fit: start with a machine, filter by realistic memory headroom, then choose installable models and speech tools that match the workload.
 
 ## Why this exists
 
