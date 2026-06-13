@@ -1,62 +1,61 @@
-<svg width="1100" height="560" viewBox="0 0 1100 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1100" height="520" viewBox="0 0 1100 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Dataset map</title>
-  <desc id="desc">Map of the Open Local AI Database showing LLM, speech and machine datasets exported as JSON, CSV and schemas.</desc>
+  <desc id="desc">Clear map of the Open Local AI Database datasets: LLMs, speech models, machines and exports.</desc>
   <defs>
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#18181b"/>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#161616"/>
       <stop offset="1" stop-color="#080808"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000" flood-opacity=".35"/>
-    </filter>
+    <pattern id="grid" width="84" height="84" patternUnits="userSpaceOnUse">
+      <path d="M84 0H0V84" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
   </defs>
-  <rect width="1100" height="560" rx="30" fill="#050505"/>
-  <path d="M0 96H1100M0 224H1100M0 352H1100M0 480H1100M110 0V560M330 0V560M550 0V560M770 0V560M990 0V560" stroke="#fff" stroke-opacity=".045"/>
-  <text x="54" y="70" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900" letter-spacing="-1.5">Dataset map</text>
-  <text x="54" y="104" fill="#a1a1aa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="800">open-local-ai-database / data</text>
 
-  <g filter="url(#shadow)">
-    <rect x="54" y="158" width="300" height="210" rx="24" fill="url(#card)" stroke="#ff453a" stroke-opacity=".55"/>
-    <circle cx="86" cy="192" r="8" fill="#ff453a"/>
-    <text x="108" y="200" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="900">LLMs</text>
-    <text x="54" y="416" fill="#ff453a" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="950">188</text>
-    <text x="116" y="411" fill="#a1a1aa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="800">records</text>
-    <text x="82" y="252" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="16">RAM tiers, quantization,</text>
-    <text x="82" y="278" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="16">LM Studio search terms,</text>
-    <text x="82" y="304" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="16">coding/reasoning scores.</text>
-    <rect x="82" y="326" width="94" height="28" rx="14" fill="#ff453a" fill-opacity=".12" stroke="#ff453a" stroke-opacity=".42"/>
-    <text x="105" y="345" fill="#ff8a64" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="900">llms.json</text>
+  <rect width="1100" height="520" rx="28" fill="#050505"/>
+  <rect width="1100" height="520" rx="28" fill="url(#grid)"/>
+
+  <text x="56" y="72" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="950" letter-spacing="-1.2">Dataset map</text>
+  <text x="56" y="106" fill="#a1a1aa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="800">JSON + CSV + schemas for local AI compatibility</text>
+
+  <g transform="translate(56 154)">
+    <rect width="306" height="236" rx="24" fill="url(#panel)" stroke="#ff453a" stroke-opacity=".58"/>
+    <circle cx="32" cy="36" r="9" fill="#ff453a"/>
+    <text x="54" y="45" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="950">LLMs</text>
+    <text x="32" y="96" fill="#ff453a" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="950">188</text>
+    <text x="32" y="126" fill="#a1a1aa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="850">records</text>
+    <text x="32" y="164" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600">RAM tiers, quantization,</text>
+    <text x="32" y="190" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600">LM Studio refs and scores.</text>
+    <rect x="32" y="206" width="118" height="30" rx="15" fill="#ff453a" fill-opacity=".12" stroke="#ff453a" stroke-opacity=".46"/>
+    <text x="54" y="226" fill="#ff8a64" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="900">llms.json</text>
   </g>
 
-  <g filter="url(#shadow)">
-    <rect x="400" y="158" width="300" height="210" rx="24" fill="url(#card)" stroke="#a78bfa" stroke-opacity=".58"/>
-    <circle cx="432" cy="192" r="8" fill="#a78bfa"/>
-    <text x="454" y="200" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="900">Speech</text>
-    <text x="400" y="416" fill="#a78bfa" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="950">57</text>
-    <text x="456" y="411" fill="#a1a1aa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="800">TTS / ASR</text>
-    <text x="428" y="252" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="16">Voice cloning, languages,</text>
-    <text x="428" y="278" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="16">latency, formats, licenses,</text>
-    <text x="428" y="304" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="16">local speech workflows.</text>
-    <rect x="428" y="326" width="84" height="28" rx="14" fill="#a78bfa" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".42"/>
-    <text x="450" y="345" fill="#c4b5fd" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="900">tts.json</text>
+  <g transform="translate(397 154)">
+    <rect width="306" height="236" rx="24" fill="url(#panel)" stroke="#a78bfa" stroke-opacity=".58"/>
+    <circle cx="32" cy="36" r="9" fill="#a78bfa"/>
+    <text x="54" y="45" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="950">Speech</text>
+    <text x="32" y="96" fill="#a78bfa" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="950">57</text>
+    <text x="32" y="126" fill="#a1a1aa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="850">TTS / ASR</text>
+    <text x="32" y="164" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600">Languages, latency,</text>
+    <text x="32" y="190" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600">formats and licenses.</text>
+    <rect x="32" y="206" width="108" height="30" rx="15" fill="#a78bfa" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".46"/>
+    <text x="55" y="226" fill="#c4b5fd" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="900">tts.json</text>
   </g>
 
-  <g filter="url(#shadow)">
-    <rect x="746" y="158" width="300" height="210" rx="24" fill="url(#card)" stroke="#22c55e" stroke-opacity=".5"/>
-    <circle cx="778" cy="192" r="8" fill="#22c55e"/>
-    <text x="800" y="200" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="900">Machines</text>
-    <text x="746" y="416" fill="#22c55e" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="950">15</text>
-    <text x="800" y="411" fill="#a1a1aa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="800">profiles</text>
-    <text x="774" y="252" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="16">Apple Silicon and NVIDIA</text>
-    <text x="774" y="278" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="16">GB10-class machines for</text>
-    <text x="774" y="304" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="16">local AI compatibility.</text>
-    <rect x="774" y="326" width="118" height="28" rx="14" fill="#22c55e" fill-opacity=".12" stroke="#22c55e" stroke-opacity=".42"/>
-    <text x="794" y="345" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="900">machines.json</text>
+  <g transform="translate(738 154)">
+    <rect width="306" height="236" rx="24" fill="url(#panel)" stroke="#22c55e" stroke-opacity=".54"/>
+    <circle cx="32" cy="36" r="9" fill="#22c55e"/>
+    <text x="54" y="45" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="950">Machines</text>
+    <text x="32" y="96" fill="#22c55e" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="950">15</text>
+    <text x="32" y="126" fill="#a1a1aa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="850">profiles</text>
+    <text x="32" y="164" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600">Apple Silicon and</text>
+    <text x="32" y="190" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600">NVIDIA local AI rigs.</text>
+    <rect x="32" y="206" width="142" height="30" rx="15" fill="#22c55e" fill-opacity=".12" stroke="#22c55e" stroke-opacity=".46"/>
+    <text x="52" y="226" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="900">machines.json</text>
   </g>
 
-  <g transform="translate(54 462)">
-    <rect width="992" height="54" rx="16" fill="#101010" stroke="#3f3f46"/>
-    <text x="24" y="34" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">Exports:</text>
-    <text x="108" y="34" fill="#d4d4d8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="800">JSON • CSV • full bundle • JSON Schemas • examples • validation workflow</text>
+  <g transform="translate(56 428)">
+    <rect width="988" height="54" rx="17" fill="#101010" stroke="#3f3f46"/>
+    <text x="24" y="34" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">Exports</text>
+    <text x="104" y="34" fill="#d4d4d8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="800">JSON / CSV / schemas / examples / validation</text>
   </g>
 </svg>
