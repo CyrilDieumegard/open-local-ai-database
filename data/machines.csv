@@ -1,0 +1,16 @@
+id,name,vendor,platform,chip,unified_memory_gb,storage,price_text,badge,official_url,retail_search_url_no_affiliate
+acer_veriton_gn100,Acer Veriton GN100,NVIDIA partner,nvidia,NVIDIA GB10,128,4TB NVMe,Check price,AI Mini Workstation,,https://www.amazon.com/s?k=Acer+Veriton+GN100+NVIDIA+GB10
+asus_ascent_gx10,ASUS Ascent GX10,NVIDIA partner,nvidia,NVIDIA GB10,128,1TB / 4TB NVMe,Check price,DGX Spark Partner,,https://www.amazon.com/s?k=ASUS+Ascent+GX10+NVIDIA+GB10
+dell_pro_max_gb10,Dell Pro Max with GB10,NVIDIA partner,nvidia,NVIDIA GB10,128,4TB NVMe,Check price,Dell GB10 Workstation,,https://www.amazon.com/s?k=Dell+Pro+Max+GB10
+hp_zgx_nano,HP ZGX Nano G1n,NVIDIA partner,nvidia,NVIDIA GB10,128,4TB NVMe,Check price,HP AI Station,,https://www.amazon.com/s?k=HP+ZGX+Nano+G1n+AI+Station
+lenovo_thinkstation_pgx,Lenovo ThinkStation PGX,NVIDIA partner,nvidia,NVIDIA GB10,128,up to 4TB NVMe,Check price,ThinkStation AI,,https://www.amazon.com/s?k=Lenovo+ThinkStation+PGX+GB10
+mac_mini_16,Apple Mac Mini M4,Apple,apple,M4,16,256GB SSD,$499,Best Starter Mac,,https://www.amazon.com/s?k=Apple+Mac+mini+M4+16GB+256GB
+mac_mini_24,Mac Mini M4 Pro,Apple,apple,M4 Pro,24,512GB SSD,"$1,399",Sweet Spot,,https://www.amazon.com/s?k=Apple+Mac+mini+M4+Pro+24GB+512GB
+mac_mini_48,Mac Mini M4 Pro,Apple,apple,M4 Pro,48,512GB SSD,"$1,799",Power User,,https://www.amazon.com/s?k=Apple+Mac+mini+M4+Pro+48GB+512GB
+mac_studio_128,Mac Studio M3 Ultra,Apple,apple,M3 Ultra,128,1TB SSD,Check price,Beast Mode,https://www.apple.com/mac-studio/,https://www.amazon.com/s?k=Apple+Mac+Studio+M3+Ultra+128GB+1TB
+mac_studio_256,Mac Studio M3 Ultra,Apple,apple,M3 Ultra,256,2TB SSD,Check price,Monster,https://www.apple.com/mac-studio/,https://www.amazon.com/s?k=Apple+Mac+Studio+M3+Ultra+256GB+2TB
+mac_studio_512,Mac Studio M3 Ultra,Apple,apple,M3 Ultra,512,4TB SSD,Check price,Ultimate Beast,https://www.apple.com/mac-studio/,https://www.amazon.com/s?k=Apple+Mac+Studio+M3+Ultra+512GB+4TB
+mac_studio_64,Mac Studio M4 Max,Apple,apple,M4 Max,64,1TB SSD,"$3,199",Workstation,https://www.apple.com/mac-studio/,https://www.amazon.com/s?k=Apple+Mac+Studio+M4+Max+64GB+1TB
+mac_studio_max_128,Mac Studio M4 Max,Apple,apple,M4 Max,128,2TB SSD,"$4,599",Max Power,https://www.apple.com/mac-studio/,https://www.amazon.com/s?k=Apple+Mac+Studio+M4+Max+128GB+2TB
+msi_edgexpert,MSI EdgeXpert,NVIDIA partner,nvidia,NVIDIA GB10,128,1TB / 4TB NVMe,Check price,Edge AI Lab,,https://www.amazon.com/s?k=MSI+EdgeXpert+AI+Supercomputer+GB10
+nvidia_dgx_spark,NVIDIA DGX Spark,NVIDIA partner,nvidia,GB10 Grace Blackwell,128,4TB NVMe,"$4,699",Desktop AI Supercomputer,,https://www.amazon.com/s?k=NVIDIA+DGX+Spark

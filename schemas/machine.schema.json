@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://localclaw.io/schemas/machine.schema.json",
+  "title": "Open Local AI Database Machine Record",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "vendor",
+    "platform",
+    "chip",
+    "unified_memory_gb",
+    "localclaw"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "vendor": { "type": "string" },
+    "platform": { "type": "string" },
+    "chip": { "type": "string" },
+    "unified_memory_gb": { "type": "number" },
+    "storage": { "type": ["string", "null"] },
+    "price_text": { "type": ["string", "null"] },
+    "badge": { "type": ["string", "null"] },
+    "official_url": { "type": ["string", "null"] },
+    "retail_search_url_no_affiliate": { "type": ["string", "null"] },
+    "localclaw": {
+      "type": "object",
+      "required": ["computers_url"],
+      "properties": {
+        "computers_url": { "type": "string", "format": "uri" }
+      }
+    }
+  }
+}

@@ -1,0 +1,5787 @@
+[
+  {
+    "id": "apriel-nemotron-15b-thinker",
+    "source_id": "apriel-nemotron-15b-thinker",
+    "name": "Apriel Nemotron 15B Thinker",
+    "type": "local_llm",
+    "family": "nemotron",
+    "parameters": "15B",
+    "size_gb": 9.5,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "reasoning",
+      "code",
+      "power",
+      "general"
+    ],
+    "description": "ServiceNow x NVIDIA mid-size reasoner. Half the memory of 32B reasoners with comparable performance on MBPP, BFCL, GPQA. Strong enterprise fit. MIT licensed.",
+    "lm_studio_search_term": "apriel-nemotron-15b-thinker",
+    "huggingface_repo": "ServiceNow-AI/Apriel-Nemotron-15b-Thinker",
+    "release_date": "2025-05",
+    "scores": {
+      "speed": 6,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/apriel-nemotron-15b-thinker.html"
+    }
+  },
+  {
+    "id": "athene-v2-72b",
+    "source_id": "athene-v2-72b",
+    "name": "Athene V2 (72B)",
+    "type": "local_llm",
+    "family": "athene",
+    "parameters": "72B",
+    "size_gb": 42,
+    "min_ram_gb": 64,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "code",
+      "reasoning",
+      "quality"
+    ],
+    "description": "72B excelling at code + math. Solid benchmarks but overshadowed by newer 2026 models. 99K downloads.",
+    "lm_studio_search_term": "athene-v2-chat",
+    "huggingface_repo": "Nexusflow/Athene-V2-Chat-GGUF",
+    "release_date": "2024-11",
+    "scores": {
+      "speed": 2,
+      "quality": 9,
+      "coding": 9,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/athene-v2-72b.html"
+    }
+  },
+  {
+    "id": "aya-8b",
+    "source_id": "aya-8b",
+    "name": "Aya (8B)",
+    "type": "local_llm",
+    "family": "aya",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "standard",
+      "general"
+    ],
+    "description": "Cohere 23-language multilingual model. Excellent for non-English conversations. 164K downloads.",
+    "lm_studio_search_term": "aya-23-8b",
+    "huggingface_repo": "bartowski/aya-23-8B-GGUF",
+    "release_date": "2024-05",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 5,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/aya-8b.html"
+    }
+  },
+  {
+    "id": "aya-expanse-32b-record-1",
+    "source_id": "aya-expanse-32b",
+    "name": "Aya Expanse (32B)",
+    "type": "local_llm",
+    "family": "aya",
+    "parameters": "32B",
+    "size_gb": 19,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "power",
+      "general"
+    ],
+    "description": "Cohere 23-language improved model. Strong multilingual at 32B. 86K downloads.",
+    "lm_studio_search_term": "aya-expanse-32b",
+    "huggingface_repo": "bartowski/aya-expanse-32b-GGUF",
+    "release_date": "2024-10",
+    "scores": {
+      "speed": 4,
+      "quality": 8,
+      "coding": 6,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/aya-expanse-32b.html"
+    },
+    "duplicate_group": "aya-expanse-32b",
+    "duplicate_index": 1
+  },
+  {
+    "id": "aya-expanse-32b-record-2",
+    "source_id": "aya-expanse-32b",
+    "name": "Aya Expanse (32B)",
+    "type": "local_llm",
+    "family": "cohere",
+    "parameters": "32B",
+    "size_gb": 19,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "multilingual",
+      "power",
+      "quality"
+    ],
+    "description": "Cohere's multilingual powerhouse — 23 languages including Arabic, Hindi, Japanese, Polish. State-of-the-art on multilingual benchmarks at 32B scale. CC-BY-NC 4.0.",
+    "lm_studio_search_term": "aya-expanse-32b",
+    "huggingface_repo": "CohereLabs/aya-expanse-32b-GGUF",
+    "release_date": "2024-10",
+    "scores": {
+      "speed": 4,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/aya-expanse-32b.html"
+    },
+    "duplicate_group": "aya-expanse-32b",
+    "duplicate_index": 2
+  },
+  {
+    "id": "bespoke-minicheck",
+    "source_id": "bespoke-minicheck",
+    "name": "Bespoke MiniCheck (3.8B)",
+    "type": "local_llm",
+    "family": "bespoke",
+    "parameters": "3.8B",
+    "size_gb": 2.3,
+    "min_ram_gb": 6,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "light",
+      "speed"
+    ],
+    "description": "Fact-checking specialist model. Verify claims and detect hallucinations. 44K downloads.",
+    "lm_studio_search_term": "bespoke-minicheck-7b",
+    "huggingface_repo": "bespokelabs/Bespoke-MiniCheck-7B-GGUF",
+    "release_date": "2024-10",
+    "scores": {
+      "speed": 9,
+      "quality": 5,
+      "coding": 2,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/bespoke-minicheck.html"
+    }
+  },
+  {
+    "id": "codegeex4-9b",
+    "source_id": "codegeex4-9b",
+    "name": "CodeGeeX4 (9B)",
+    "type": "local_llm",
+    "family": "codegeex",
+    "parameters": "9B",
+    "size_gb": 5.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "code",
+      "standard"
+    ],
+    "description": "Versatile code completion model from THUDM. Multi-language coding. 187K downloads.",
+    "lm_studio_search_term": "codegeex4-all-9b",
+    "huggingface_repo": "THUDM/codegeex4-all-9b-GGUF",
+    "release_date": "2024-07",
+    "scores": {
+      "speed": 7,
+      "quality": 6,
+      "coding": 8,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/codegeex4-9b.html"
+    }
+  },
+  {
+    "id": "codegemma-7b",
+    "source_id": "codegemma-7b",
+    "name": "CodeGemma (7B)",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "7B",
+    "size_gb": 4.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "code",
+      "standard"
+    ],
+    "description": "Google code completion model. Excellent for inline code suggestions. 1.2M downloads.",
+    "lm_studio_search_term": "codegemma-7b-it",
+    "huggingface_repo": "lmstudio-community/codegemma-7b-it-GGUF",
+    "release_date": "2024-04",
+    "scores": {
+      "speed": 8,
+      "quality": 6,
+      "coding": 8,
+      "reasoning": 5
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/codegemma-7b.html"
+    }
+  },
+  {
+    "id": "codellama-34b",
+    "source_id": "codellama-34b",
+    "name": "CodeLlama 34B",
+    "type": "local_llm",
+    "family": "codellama",
+    "parameters": "34B",
+    "size_gb": 20,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "code",
+      "power",
+      "quality"
+    ],
+    "description": "Massive coding model. Handles complex refactoring, architecture, and multi-file edits.",
+    "lm_studio_search_term": "codellama-34b-instruct",
+    "huggingface_repo": "TheBloke/CodeLlama-34B-Instruct-GGUF",
+    "release_date": "2024-01",
+    "scores": {
+      "speed": 4,
+      "quality": 7,
+      "coding": 9,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/codellama-34b.html"
+    }
+  },
+  {
+    "id": "codestral-22b",
+    "source_id": "codestral-22b",
+    "name": "Codestral (22B)",
+    "type": "local_llm",
+    "family": "mistral",
+    "parameters": "22B",
+    "size_gb": 13,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "code",
+      "power"
+    ],
+    "description": "Mistral's first code model. Supports 80+ programming languages. 476K downloads.",
+    "lm_studio_search_term": "codestral-22b-v0.1",
+    "huggingface_repo": "lmstudio-community/Codestral-22B-v0.1-GGUF",
+    "release_date": "2024-05",
+    "scores": {
+      "speed": 5,
+      "quality": 7,
+      "coding": 9,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/codestral-22b.html"
+    }
+  },
+  {
+    "id": "cogito-32b",
+    "source_id": "cogito-32b",
+    "name": "Cogito (32B)",
+    "type": "local_llm",
+    "family": "cogito",
+    "parameters": "32B",
+    "size_gb": 19,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "power",
+      "quality"
+    ],
+    "description": "Hybrid reasoning at 32B. Outperforms larger models on reasoning tasks. Strong general purpose.",
+    "lm_studio_search_term": "cogito-32b",
+    "huggingface_repo": "deepcogito/cogito-v1-preview-qwen-32B-GGUF",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 4,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/cogito-32b.html"
+    }
+  },
+  {
+    "id": "cogito-8b",
+    "source_id": "cogito-8b",
+    "name": "Cogito (8B)",
+    "type": "local_llm",
+    "family": "cogito",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "standard",
+      "general"
+    ],
+    "description": "Hybrid reasoning model outperforming peers. Strong general + reasoning at 8B. 558K downloads.",
+    "lm_studio_search_term": "cogito-8b",
+    "huggingface_repo": "deepcogito/cogito-v1-preview-llama-8B-GGUF",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/cogito-8b.html"
+    }
+  },
+  {
+    "id": "command-a-111b-record-1",
+    "source_id": "command-a-111b",
+    "name": "Command A (111B)",
+    "type": "local_llm",
+    "family": "cohere",
+    "parameters": "111B",
+    "size_gb": 64,
+    "min_ram_gb": 80,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "general",
+      "quality"
+    ],
+    "description": "Cohere enterprise flagship. Top-tier for RAG and enterprise use. 58K downloads.",
+    "lm_studio_search_term": "command-a-111b",
+    "huggingface_repo": "CohereForAI/c4ai-command-a-03-2025-GGUF",
+    "release_date": "2025-03",
+    "scores": {
+      "speed": 1,
+      "quality": 10,
+      "coding": 8,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "high-memory",
+      "page_url": "https://localclaw.io/models/command-a-111b.html"
+    },
+    "duplicate_group": "command-a-111b",
+    "duplicate_index": 1
+  },
+  {
+    "id": "command-a-111b-record-2",
+    "source_id": "command-a-111b",
+    "name": "Command A (111B)",
+    "type": "local_llm",
+    "family": "cohere",
+    "parameters": "111B",
+    "size_gb": 68,
+    "min_ram_gb": 96,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "quality",
+      "general",
+      "power"
+    ],
+    "description": "Cohere open-weight flagship optimised for agentic workflows and long-context RAG. 256K context, excellent multilingual coverage (23 languages). CC-BY-NC 4.0 — non-commercial.",
+    "lm_studio_search_term": "command-a-111b",
+    "huggingface_repo": "CohereLabs/command-a-03-2025-GGUF",
+    "release_date": "2025-03",
+    "scores": {
+      "speed": 2,
+      "quality": 10,
+      "coding": 9,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "high-memory",
+      "page_url": "https://localclaw.io/models/command-a-111b.html"
+    },
+    "duplicate_group": "command-a-111b",
+    "duplicate_index": 2
+  },
+  {
+    "id": "command-r-35b",
+    "source_id": "command-r-35b",
+    "name": "Command R (35B)",
+    "type": "local_llm",
+    "family": "cohere",
+    "parameters": "35B",
+    "size_gb": 20,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "general",
+      "power"
+    ],
+    "description": "Cohere optimized for RAG and long-context. 128K context. Excellent retrieval-augmented generation. 354K downloads.",
+    "lm_studio_search_term": "command-r-35b",
+    "huggingface_repo": "lmstudio-community/c4ai-command-r-v01-GGUF",
+    "release_date": "2024-03",
+    "scores": {
+      "speed": 4,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/command-r-35b.html"
+    }
+  },
+  {
+    "id": "command-r-plus",
+    "source_id": "command-r-plus",
+    "name": "Command R+ (104B)",
+    "type": "local_llm",
+    "family": "cohere",
+    "parameters": "104B",
+    "size_gb": 65,
+    "min_ram_gb": 72,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "Cohere's flagship open model. CC BY-NC 4.0 license (non-commercial; commercial license available). Unmatched 128K context. Perfect for RAG.",
+    "lm_studio_search_term": "command-r-plus-104b",
+    "huggingface_repo": "lmstudio-community/c4ai-command-r-plus-GGUF",
+    "release_date": "2024-04",
+    "scores": {
+      "speed": 2,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "high-memory",
+      "page_url": "https://localclaw.io/models/command-r-plus.html"
+    }
+  },
+  {
+    "id": "dante-mosaic-3.5b",
+    "source_id": "dante-mosaic-3.5b",
+    "name": "DANTE-Mosaic-3.5B",
+    "type": "local_llm",
+    "family": "dante",
+    "parameters": "3.08B",
+    "size_gb": 6.2,
+    "min_ram_gb": 8,
+    "recommended_quantization": "BF16",
+    "tags": [
+      "chat",
+      "reasoning",
+      "code",
+      "light",
+      "multilingual"
+    ],
+    "description": "OdaxAI compact dense model based on SmolLM3-3B and distilled from Kimi K2. Strong small-model benchmark profile: GSM8K 74.45, HellaSwag 76.73 and MBPP 42.6. Apache 2.0, BF16 weights, practical for local Transformers/vLLM use.",
+    "lm_studio_search_term": "OdaxAI/DANTE-Mosaic-3.5B",
+    "huggingface_repo": "OdaxAI/DANTE-Mosaic-3.5B",
+    "release_date": "2026-05",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/dante-mosaic-3.5b.html"
+    }
+  },
+  {
+    "id": "dbrx-132b",
+    "source_id": "dbrx-132b",
+    "name": "DBRX (132B MoE)",
+    "type": "local_llm",
+    "family": "dbrx",
+    "parameters": "132B (36B active)",
+    "size_gb": 75,
+    "min_ram_gb": 96,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "general",
+      "quality"
+    ],
+    "description": "Databricks open MoE LLM. 132B total with 36B active. Strong general purpose. 111K downloads.",
+    "lm_studio_search_term": "dbrx-instruct",
+    "huggingface_repo": "databricks/dbrx-instruct-GGUF",
+    "release_date": "2024-03",
+    "scores": {
+      "speed": 2,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "high-memory",
+      "page_url": "https://localclaw.io/models/dbrx-132b.html"
+    }
+  },
+  {
+    "id": "deepcoder-14b",
+    "source_id": "deepcoder-14b",
+    "name": "DeepCoder (14B)",
+    "type": "local_llm",
+    "family": "deepcoder",
+    "parameters": "14B",
+    "size_gb": 8.5,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "code",
+      "reasoning",
+      "power"
+    ],
+    "description": "O3-mini level open coder. Strong reasoning + coding combo. 326K downloads.",
+    "lm_studio_search_term": "deepcoder-14b-preview",
+    "huggingface_repo": "deepseek-ai/DeepCoder-14B-Preview-GGUF",
+    "release_date": "2025-03",
+    "scores": {
+      "speed": 6,
+      "quality": 8,
+      "coding": 9,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/deepcoder-14b.html"
+    }
+  },
+  {
+    "id": "deepscaler-1.5b",
+    "source_id": "deepscaler-1.5b",
+    "name": "DeepScaleR (1.5B)",
+    "type": "local_llm",
+    "family": "deepscaler",
+    "parameters": "1.5B",
+    "size_gb": 1,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "reasoning",
+      "light",
+      "speed"
+    ],
+    "description": "Tiny model beating o1-preview on math! Incredible reasoning-to-size ratio. 474K downloads.",
+    "lm_studio_search_term": "deepscaler-1.5b",
+    "huggingface_repo": "agentica-org/DeepScaleR-1.5B-Preview-GGUF",
+    "release_date": "2025-02",
+    "scores": {
+      "speed": 10,
+      "quality": 5,
+      "coding": 4,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/deepscaler-1.5b.html"
+    }
+  },
+  {
+    "id": "deepseek-coder-33b",
+    "source_id": "deepseek-coder-33b",
+    "name": "DeepSeek Coder (33B)",
+    "type": "local_llm",
+    "family": "deepseek",
+    "parameters": "33B",
+    "size_gb": 19,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "code",
+      "power"
+    ],
+    "description": "DeepSeek code specialist. Excellent at code generation and completion. 1.4M downloads.",
+    "lm_studio_search_term": "deepseek-coder-33b-instruct",
+    "huggingface_repo": "TheBloke/deepseek-coder-33B-instruct-GGUF",
+    "release_date": "2024-01",
+    "scores": {
+      "speed": 4,
+      "quality": 7,
+      "coding": 9,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/deepseek-coder-33b.html"
+    }
+  },
+  {
+    "id": "deepseek-coder-v2-16b",
+    "source_id": "deepseek-coder-v2-16b",
+    "name": "DeepSeek Coder V2 (16B)",
+    "type": "local_llm",
+    "family": "deepseek",
+    "parameters": "16B",
+    "size_gb": 9.5,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "code",
+      "power"
+    ],
+    "description": "MoE code model rivaling GPT4-Turbo on coding benchmarks. 1.1M downloads.",
+    "lm_studio_search_term": "deepseek-coder-v2-lite-instruct",
+    "huggingface_repo": "bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+    "release_date": "2024-06",
+    "scores": {
+      "speed": 6,
+      "quality": 8,
+      "coding": 9,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/deepseek-coder-v2-16b.html"
+    }
+  },
+  {
+    "id": "deepseek-r1-0528",
+    "source_id": "deepseek-r1-0528",
+    "name": "DeepSeek R1 0528 (671B MoE)",
+    "type": "local_llm",
+    "family": "deepseek",
+    "parameters": "671B (37B active)",
+    "size_gb": 360,
+    "min_ram_gb": 512,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "code",
+      "quality"
+    ],
+    "description": "Updated flagship DeepSeek R1 with improved reasoning chains and fewer hallucinations. Major upgrade to chain-of-thought quality. MIT licensed. Server-grade only.",
+    "lm_studio_search_term": "deepseek-r1-0528",
+    "huggingface_repo": "deepseek-ai/DeepSeek-R1-0528-GGUF",
+    "release_date": "2025-05",
+    "scores": {
+      "speed": 1,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/deepseek-r1-0528.html"
+    }
+  },
+  {
+    "id": "deepseek-r1-0528-qwen3-8b",
+    "source_id": "deepseek-r1-0528-qwen3-8b",
+    "name": "DeepSeek R1 0528 Distill (8B)",
+    "type": "local_llm",
+    "family": "deepseek",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "standard"
+    ],
+    "description": "Updated R1 reasoning distilled to Qwen3-8B. Improved chain-of-thought with fewer hallucinations vs original R1 distills. MIT licensed.",
+    "lm_studio_search_term": "deepseek-r1-0528-qwen3-8b",
+    "huggingface_repo": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B-GGUF",
+    "release_date": "2025-05",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/deepseek-r1-0528-qwen3-8b.html"
+    }
+  },
+  {
+    "id": "deepseek-r1-14b",
+    "source_id": "deepseek-r1-14b",
+    "name": "DeepSeek R1 Distill (14B)",
+    "type": "local_llm",
+    "family": "deepseek",
+    "parameters": "14B",
+    "size_gb": 9.5,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "chat",
+      "power"
+    ],
+    "description": "Deep reasoning at 14B. Chain-of-thought reasoning. Largely superseded by Qwen 3 14B and Phi-4 Reasoning for most tasks.",
+    "lm_studio_search_term": "deepseek-r1-distill-qwen-14b",
+    "huggingface_repo": "lmstudio-community/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+    "release_date": "2025-01",
+    "scores": {
+      "speed": 5,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/deepseek-r1-14b.html"
+    }
+  },
+  {
+    "id": "deepseek-r1-32b",
+    "source_id": "deepseek-r1-32b",
+    "name": "DeepSeek R1 Distill (32B)",
+    "type": "local_llm",
+    "family": "deepseek",
+    "parameters": "32B",
+    "size_gb": 20,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "chat",
+      "power"
+    ],
+    "description": "Solid reasoning at 32B but outclassed by GLM-4 32B and Qwen 3 32B for general use. Still good for pure math/logic.",
+    "lm_studio_search_term": "deepseek-r1-distill-qwen-32b",
+    "huggingface_repo": "lmstudio-community/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+    "release_date": "2025-01",
+    "scores": {
+      "speed": 3,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/deepseek-r1-32b.html"
+    }
+  },
+  {
+    "id": "deepseek-r1-70b",
+    "source_id": "deepseek-r1-70b",
+    "name": "DeepSeek R1 Distill (70B)",
+    "type": "local_llm",
+    "family": "deepseek",
+    "parameters": "70B",
+    "size_gb": 40,
+    "min_ram_gb": 48,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "quality"
+    ],
+    "description": "Massive reasoning distill at 70B. Good for pure reasoning but outperformed by GLM 4.5 Air and newer flagship models overall.",
+    "lm_studio_search_term": "deepseek-r1-distill-llama-70b",
+    "huggingface_repo": "lmstudio-community/DeepSeek-R1-Distill-Llama-70B-GGUF",
+    "release_date": "2025-01",
+    "scores": {
+      "speed": 2,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/deepseek-r1-70b.html"
+    }
+  },
+  {
+    "id": "deepseek-r1-7b",
+    "source_id": "deepseek-r1-7b",
+    "name": "DeepSeek R1 Distill (7B)",
+    "type": "local_llm",
+    "family": "deepseek",
+    "parameters": "7B",
+    "size_gb": 4.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "standard"
+    ],
+    "description": "DeepSeek's reasoning model distilled to 7B. Shows thought process step-by-step. 65.5M downloads total.",
+    "lm_studio_search_term": "deepseek-r1-distill-qwen-7b",
+    "huggingface_repo": "lmstudio-community/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+    "release_date": "2025-01",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/deepseek-r1-7b.html"
+    }
+  },
+  {
+    "id": "deepseek-r1-8b",
+    "source_id": "deepseek-r1-8b",
+    "name": "DeepSeek R1 Distill (8B)",
+    "type": "local_llm",
+    "family": "deepseek",
+    "parameters": "8B",
+    "size_gb": 5.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "standard"
+    ],
+    "description": "DeepSeek's reasoning model distilled to 8B. Shows its thought process step-by-step. Mind-blowing for logic.",
+    "lm_studio_search_term": "deepseek-r1-distill-llama-8b",
+    "huggingface_repo": "lmstudio-community/DeepSeek-R1-Distill-Llama-8B-GGUF",
+    "release_date": "2025-01",
+    "scores": {
+      "speed": 7,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/deepseek-r1-8b.html"
+    }
+  },
+  {
+    "id": "deepseek-v3-671b",
+    "source_id": "deepseek-v3-671b",
+    "name": "DeepSeek V3 (671B MoE)",
+    "type": "local_llm",
+    "family": "deepseek-v3",
+    "parameters": "671B (37B active)",
+    "size_gb": 360,
+    "min_ram_gb": 512,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "quality"
+    ],
+    "description": "671B MoE with 37B active params. The original massive DeepSeek. 2.4M downloads. Server-grade only.",
+    "lm_studio_search_term": "deepseek-v3",
+    "huggingface_repo": "deepseek-ai/DeepSeek-V3-GGUF",
+    "release_date": "2024-12",
+    "scores": {
+      "speed": 1,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/deepseek-v3-671b.html"
+    }
+  },
+  {
+    "id": "deepseek-v3.1",
+    "source_id": "deepseek-v3.1",
+    "name": "DeepSeek V3.1 (671B MoE)",
+    "type": "local_llm",
+    "family": "deepseek-v3",
+    "parameters": "671B (37B active, MoE)",
+    "size_gb": 360,
+    "min_ram_gb": 512,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "quality"
+    ],
+    "description": "Hybrid thinking/non-thinking model. Full 671B MoE for maximum quality, 37B active at inference. Significant step up from V3.0. Requires server-grade hardware. MIT licensed.",
+    "lm_studio_search_term": "deepseek-v3.1",
+    "huggingface_repo": "unsloth/DeepSeek-V3.1-GGUF",
+    "release_date": "2025-08",
+    "scores": {
+      "speed": 1,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/deepseek-v3.1.html"
+    }
+  },
+  {
+    "id": "deepseek-v3.2",
+    "source_id": "deepseek-v3.2",
+    "name": "DeepSeek V3.2 (37B/671B MoE)",
+    "type": "local_llm",
+    "family": "deepseek-v3",
+    "parameters": "37B (671B MoE)",
+    "size_gb": 40,
+    "min_ram_gb": 48,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "DeepSeek's massive MoE flagship. 37B active out of 671B total. Exceptional coding, reasoning and general capabilities. Ranks #6 on global usage leaderboards with 29B monthly tokens. MIT licensed.",
+    "lm_studio_search_term": "deepseek-v3.2",
+    "huggingface_repo": "deepseek-ai/DeepSeek-V3.2-GGUF",
+    "release_date": "2025-12",
+    "scores": {
+      "speed": 3,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/deepseek-v3.2.html"
+    }
+  },
+  {
+    "id": "deepseek-v3.2-exp",
+    "source_id": "deepseek-v3.2-exp",
+    "name": "DeepSeek V3.2 Exp (671B MoE)",
+    "type": "local_llm",
+    "family": "deepseek",
+    "parameters": "671B (37B active)",
+    "size_gb": 380,
+    "min_ram_gb": 512,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality"
+    ],
+    "description": "Experimental V3.2 with DeepSeek Sparse Attention (DSA) — halves inference cost vs V3.1 on long context while keeping quality. 128K context, improved coding & tool-use. MIT licensed. Server-grade.",
+    "lm_studio_search_term": "deepseek-v3.2-exp",
+    "huggingface_repo": "deepseek-ai/DeepSeek-V3.2-Exp",
+    "release_date": "2025-09",
+    "scores": {
+      "speed": 2,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/deepseek-v3.2-exp.html"
+    }
+  },
+  {
+    "id": "deepseek-v4-flash",
+    "source_id": "deepseek-v4-flash",
+    "name": "DeepSeek V4 Flash (284B MoE)",
+    "type": "local_llm",
+    "family": "deepseek-flash",
+    "parameters": "284B (13B active)",
+    "size_gb": 170,
+    "min_ram_gb": 256,
+    "recommended_quantization": "FP4/FP8",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "agentic",
+      "long-context",
+      "general"
+    ],
+    "description": "Efficient DeepSeek V4 variant: 284B total, 13B active, 1M-token context. Flash-Max can approach Pro reasoning with larger thinking budget. MIT licensed.",
+    "lm_studio_search_term": "deepseek-v4-flash",
+    "huggingface_repo": "deepseek-ai/DeepSeek-V4-Flash",
+    "release_date": "2026-05",
+    "scores": {
+      "speed": 5,
+      "quality": 9,
+      "coding": 9,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/deepseek-v4-flash.html"
+    }
+  },
+  {
+    "id": "deepseek-v4-pro",
+    "source_id": "deepseek-v4-pro",
+    "name": "DeepSeek V4 Pro (1.6T MoE)",
+    "type": "local_llm",
+    "family": "deepseek",
+    "parameters": "1.6T (49B active)",
+    "size_gb": 850,
+    "min_ram_gb": 1024,
+    "recommended_quantization": "FP4/FP8",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality",
+      "agentic",
+      "long-context",
+      "general"
+    ],
+    "description": "DeepSeek frontier MoE with 1M-token context, hybrid compressed attention and top-tier coding/reasoning. MIT licensed. Datacenter-grade only.",
+    "lm_studio_search_term": "deepseek-v4-pro",
+    "huggingface_repo": "deepseek-ai/DeepSeek-V4-Pro",
+    "release_date": "2026-05",
+    "scores": {
+      "speed": 2,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/deepseek-v4-pro.html"
+    }
+  },
+  {
+    "id": "devstral-24b",
+    "source_id": "devstral-24b",
+    "name": "Devstral (24B)",
+    "type": "local_llm",
+    "family": "mistral",
+    "parameters": "24B",
+    "size_gb": 14,
+    "min_ram_gb": 20,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "code",
+      "power"
+    ],
+    "description": "Best open model for coding agents. Designed for agentic coding workflows. 391K downloads.",
+    "lm_studio_search_term": "devstral-24b",
+    "huggingface_repo": "mistralai/Devstral-Small-2507-GGUF",
+    "release_date": "2025-07",
+    "scores": {
+      "speed": 5,
+      "quality": 8,
+      "coding": 10,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/devstral-24b.html"
+    }
+  },
+  {
+    "id": "dolphin-mixtral-8x7b",
+    "source_id": "dolphin-mixtral-8x7b",
+    "name": "Dolphin Mixtral (8x7B)",
+    "type": "local_llm",
+    "family": "dolphin",
+    "parameters": "8x7B (46.7B)",
+    "size_gb": 26,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "general"
+    ],
+    "description": "Uncensored Mixtral fine-tune. No content filters. Popular for unrestricted chat. 708K downloads.",
+    "lm_studio_search_term": "dolphin-2.9.2-mixtral-8x7b",
+    "huggingface_repo": "TheBloke/dolphin-2.9.2-mixtral-8x7b-GGUF",
+    "release_date": "2024-03",
+    "scores": {
+      "speed": 4,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/dolphin-mixtral-8x7b.html"
+    }
+  },
+  {
+    "id": "dolphin3-8b",
+    "source_id": "dolphin3-8b",
+    "name": "Dolphin 3 (8B)",
+    "type": "local_llm",
+    "family": "dolphin",
+    "parameters": "8B",
+    "size_gb": 4.7,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "standard",
+      "general"
+    ],
+    "description": "Uncensored general purpose model with function calling. No content filters. 3.1M downloads.",
+    "lm_studio_search_term": "dolphin3-8b",
+    "huggingface_repo": "cognitivecomputations/Dolphin3-8B-GGUF",
+    "release_date": "2025-02",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/dolphin3-8b.html"
+    }
+  },
+  {
+    "id": "exaone-deep-32b",
+    "source_id": "exaone-deep-32b",
+    "name": "EXAONE Deep (32B)",
+    "type": "local_llm",
+    "family": "exaone",
+    "parameters": "32B",
+    "size_gb": 19,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "power",
+      "quality"
+    ],
+    "description": "LG AI Research large reasoning model. Exceptional math and coding. 200K downloads.",
+    "lm_studio_search_term": "exaone-deep-32b",
+    "huggingface_repo": "LGAI-EXAONE/EXAONE-Deep-32B-GGUF",
+    "release_date": "2025-02",
+    "scores": {
+      "speed": 4,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/exaone-deep-32b.html"
+    }
+  },
+  {
+    "id": "exaone-deep-7.8b",
+    "source_id": "exaone-deep-7.8b",
+    "name": "EXAONE Deep (7.8B)",
+    "type": "local_llm",
+    "family": "exaone",
+    "parameters": "7.8B",
+    "size_gb": 4.7,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "standard"
+    ],
+    "description": "LG AI Research reasoning model. Strong at math and coding reasoning. 200K downloads.",
+    "lm_studio_search_term": "exaone-deep-7.8b",
+    "huggingface_repo": "LGAI-EXAONE/EXAONE-Deep-7.8B-GGUF",
+    "release_date": "2025-02",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/exaone-deep-7.8b.html"
+    }
+  },
+  {
+    "id": "exaone3.5-7.8b",
+    "source_id": "exaone3.5-7.8b",
+    "name": "EXAONE 3.5 (7.8B)",
+    "type": "local_llm",
+    "family": "exaone",
+    "parameters": "7.8B",
+    "size_gb": 4.7,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "standard",
+      "general"
+    ],
+    "description": "LG AI bilingual model (EN/KR). Strong performance at 7.8B. 118K downloads.",
+    "lm_studio_search_term": "exaone-3.5-7.8b-instruct",
+    "huggingface_repo": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-GGUF",
+    "release_date": "2024-12",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/exaone3.5-7.8b.html"
+    }
+  },
+  {
+    "id": "falcon3-7b",
+    "source_id": "falcon3-7b",
+    "name": "Falcon 3 (7B)",
+    "type": "local_llm",
+    "family": "falcon",
+    "parameters": "7B",
+    "size_gb": 4.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "standard",
+      "general"
+    ],
+    "description": "TII efficient model. Strong performance under 10B. Great for science and math. 849K downloads.",
+    "lm_studio_search_term": "falcon3-7b-instruct",
+    "huggingface_repo": "tiiuae/Falcon3-7B-Instruct-GGUF",
+    "release_date": "2024-12",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/falcon3-7b.html"
+    }
+  },
+  {
+    "id": "gemma2-27b",
+    "source_id": "gemma2-27b",
+    "name": "Gemma 2 (27B)",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "27B",
+    "size_gb": 16,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "quality"
+    ],
+    "description": "Google's large Gemma 2. Excellent reasoning and coding. Strong performance at 27B.",
+    "lm_studio_search_term": "gemma-2-27b-it",
+    "huggingface_repo": "lmstudio-community/gemma-2-27B-it-GGUF",
+    "release_date": "2024-06",
+    "scores": {
+      "speed": 4,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/gemma2-27b.html"
+    }
+  },
+  {
+    "id": "gemma2-9b",
+    "source_id": "gemma2-9b",
+    "name": "Gemma 2 (9B)",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "9B",
+    "size_gb": 5.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "standard",
+      "general"
+    ],
+    "description": "Google Gemma 2nd gen. Excellent quality-to-size ratio. 8.1M downloads. Great all-around model.",
+    "lm_studio_search_term": "gemma-2-9b-it",
+    "huggingface_repo": "lmstudio-community/gemma-2-9B-it-GGUF",
+    "release_date": "2024-06",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/gemma2-9b.html"
+    }
+  },
+  {
+    "id": "gemma3-12b",
+    "source_id": "gemma3-12b",
+    "name": "Gemma 3 (12B)",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "12B",
+    "size_gb": 8,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "vision",
+      "power",
+      "general"
+    ],
+    "description": "Google's 12B multimodal beast. Understands images natively. Excellent quality for 16GB machines.",
+    "lm_studio_search_term": "gemma-3-12b-it",
+    "huggingface_repo": "lmstudio-community/gemma-3-12B-it-GGUF",
+    "release_date": "2025-03",
+    "scores": {
+      "speed": 6,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/gemma3-12b.html"
+    }
+  },
+  {
+    "id": "gemma3-1b",
+    "source_id": "gemma3-1b",
+    "name": "Gemma 3 (1B)",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "1B",
+    "size_gb": 1,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q8_0",
+    "tags": [
+      "chat",
+      "light",
+      "speed"
+    ],
+    "description": "Ultra-light model from Google. Perfect for quick responses on any machine. Incredibly fast.",
+    "lm_studio_search_term": "gemma-3-1b-it",
+    "huggingface_repo": "lmstudio-community/gemma-3-1b-it-GGUF",
+    "release_date": "2025-03",
+    "scores": {
+      "speed": 10,
+      "quality": 4,
+      "coding": 3,
+      "reasoning": 3
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/gemma3-1b.html"
+    }
+  },
+  {
+    "id": "gemma3-27b",
+    "source_id": "gemma3-27b",
+    "name": "Gemma 3 (27B)",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "27B",
+    "size_gb": 17,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "vision",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "Google's flagship multimodal. Image + text understanding at an exceptional level.",
+    "lm_studio_search_term": "gemma-3-27b-it",
+    "huggingface_repo": "lmstudio-community/gemma-3-27B-it-GGUF",
+    "release_date": "2025-03",
+    "scores": {
+      "speed": 4,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/gemma3-27b.html"
+    }
+  },
+  {
+    "id": "gemma3-4b",
+    "source_id": "gemma3-4b",
+    "name": "Gemma 3 (4B)",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "4B",
+    "size_gb": 3,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "vision",
+      "standard",
+      "general"
+    ],
+    "description": "Google's multimodal gem. Understands text AND images natively. Great quality-to-size ratio.",
+    "lm_studio_search_term": "gemma-3-4b-it",
+    "huggingface_repo": "lmstudio-community/gemma-3-4B-it-GGUF",
+    "release_date": "2025-03",
+    "scores": {
+      "speed": 9,
+      "quality": 6,
+      "coding": 5,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/gemma3-4b.html"
+    }
+  },
+  {
+    "id": "gemma3n-4b",
+    "source_id": "gemma3n-4b",
+    "name": "Gemma 3n (4B)",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "4B",
+    "size_gb": 2.5,
+    "min_ram_gb": 6,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "light",
+      "speed"
+    ],
+    "description": "Google Gemma for phones/tablets/laptops. Optimized for mobile and edge. 552K downloads.",
+    "lm_studio_search_term": "gemma-3n-e4b-it",
+    "huggingface_repo": "google/gemma-3n-E4B-it-GGUF",
+    "release_date": "2025-06",
+    "scores": {
+      "speed": 9,
+      "quality": 6,
+      "coding": 5,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/gemma3n-4b.html"
+    }
+  },
+  {
+    "id": "gemma3n-8b",
+    "source_id": "gemma3n-8b",
+    "name": "Gemma 3n (8B)",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "vision",
+      "standard",
+      "general"
+    ],
+    "description": "Google on-device powerhouse with vision. Designed for phones/tablets/laptops but punches far above its weight. Per-layer memory management for constrained devices. Apache 2.0.",
+    "lm_studio_search_term": "gemma-3n-e8b-it",
+    "huggingface_repo": "google/gemma-3n-E8B-it-GGUF",
+    "release_date": "2025-06",
+    "scores": {
+      "speed": 7,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/gemma3n-8b.html"
+    }
+  },
+  {
+    "id": "gemma4-12b",
+    "source_id": "gemma4-12b",
+    "name": "Gemma 4 12B",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "12B",
+    "size_gb": 8.2,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "vision",
+      "audio",
+      "code",
+      "reasoning",
+      "power",
+      "multimodal",
+      "general"
+    ],
+    "description": "Google DeepMind 12B unified multimodal model. Text, image, audio and video inputs, 256K context, Apache 2.0, and a strong local sweet spot for 16-32 GB machines.",
+    "lm_studio_search_term": "gemma-4-12b-it",
+    "huggingface_repo": "lmstudio-community/gemma-4-12B-it-GGUF",
+    "release_date": "2026-06",
+    "scores": {
+      "speed": 6,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/gemma4-12b.html"
+    }
+  },
+  {
+    "id": "gemma4-26b-a4b",
+    "source_id": "gemma4-26b-a4b",
+    "name": "Gemma 4 26B A4B",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "26B (A4B active)",
+    "size_gb": 16,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "multimodal",
+      "general"
+    ],
+    "description": "Gemma 4 MoE flagship-for-workstations: 26B total with ~4B active parameters. 256K context and excellent quality-per-watt for local inference. Apache 2.0.",
+    "lm_studio_search_term": "gemma-4-26b-a4b-it",
+    "huggingface_repo": "google/gemma-4-26B-A4B-it",
+    "release_date": "2026-03",
+    "scores": {
+      "speed": 7,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/gemma4-26b-a4b.html"
+    }
+  },
+  {
+    "id": "gemma4-31b",
+    "source_id": "gemma4-31b",
+    "name": "Gemma 4 31B",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "31B",
+    "size_gb": 19,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality",
+      "multimodal",
+      "general"
+    ],
+    "description": "Largest Gemma 4 model for premium local quality. Strong coding and reasoning with 256K context and broad multilingual support. Apache 2.0.",
+    "lm_studio_search_term": "gemma-4-31b-it",
+    "huggingface_repo": "google/gemma-4-31B-it",
+    "release_date": "2026-03",
+    "scores": {
+      "speed": 5,
+      "quality": 9,
+      "coding": 9,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/gemma4-31b.html"
+    }
+  },
+  {
+    "id": "gemma4-e2b",
+    "source_id": "gemma4-e2b",
+    "name": "Gemma 4 E2B",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "E2B",
+    "size_gb": 2.3,
+    "min_ram_gb": 6,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "vision",
+      "speed",
+      "edge",
+      "multimodal",
+      "general"
+    ],
+    "description": "Gemma 4 compact multimodal model for on-device usage. Supports text, image, audio, and video understanding with 256K context. Apache 2.0.",
+    "lm_studio_search_term": "gemma-4-e2b-it",
+    "huggingface_repo": "google/gemma-4-E2B-it",
+    "release_date": "2026-03",
+    "scores": {
+      "speed": 9,
+      "quality": 6,
+      "coding": 5,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/gemma4-e2b.html"
+    }
+  },
+  {
+    "id": "gemma4-e4b",
+    "source_id": "gemma4-e4b",
+    "name": "Gemma 4 E4B",
+    "type": "local_llm",
+    "family": "gemma",
+    "parameters": "E4B",
+    "size_gb": 4.6,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "vision",
+      "standard",
+      "multimodal",
+      "reasoning",
+      "general"
+    ],
+    "description": "Gemma 4 balanced edge model with strong multimodal quality and 256K context. Great for laptops and high-end mobile devices. Apache 2.0.",
+    "lm_studio_search_term": "gemma-4-e4b-it",
+    "huggingface_repo": "google/gemma-4-E4B-it",
+    "release_date": "2026-03",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/gemma4-e4b.html"
+    }
+  },
+  {
+    "id": "glm-4.6-355b",
+    "source_id": "glm-4.6-355b",
+    "name": "GLM 4.6 (355B MoE)",
+    "type": "local_llm",
+    "family": "glm",
+    "parameters": "355B (32B active)",
+    "size_gb": 200,
+    "min_ram_gb": 320,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality",
+      "general"
+    ],
+    "description": "Zhipu AI flagship — full GLM 4.6. 200K context, strong tool-calling & agentic workflows. Competes with Claude 3.5 Sonnet on reasoning and code. MIT licensed. Server-grade hardware.",
+    "lm_studio_search_term": "glm-4.6-355b",
+    "huggingface_repo": "zai-org/GLM-4.6",
+    "release_date": "2025-09",
+    "scores": {
+      "speed": 2,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/glm-4.6-355b.html"
+    }
+  },
+  {
+    "id": "glm-5.1",
+    "source_id": "glm-5.1",
+    "name": "GLM-5.1",
+    "type": "local_llm",
+    "family": "glm",
+    "parameters": "754B MoE",
+    "size_gb": 430,
+    "min_ram_gb": 640,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality",
+      "agentic",
+      "general"
+    ],
+    "description": "Z.ai next-generation flagship for agentic engineering. Stronger coding, long-horizon tool use, SWE-Bench Pro, Terminal-Bench and repo generation. MIT licensed.",
+    "lm_studio_search_term": "glm-5.1",
+    "huggingface_repo": "zai-org/GLM-5.1",
+    "release_date": "2026-05",
+    "scores": {
+      "speed": 2,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/glm-5.1.html"
+    }
+  },
+  {
+    "id": "glm4-32b",
+    "source_id": "glm4-32b",
+    "name": "GLM-4 (32B)",
+    "type": "local_llm",
+    "family": "glm",
+    "parameters": "32B",
+    "size_gb": 20,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "Flagship GLM-4. Much better than QwQ 32B for general tasks. Llama-70B class performance at half the size. Exceptional bilingual (CN/EN).",
+    "lm_studio_search_term": "glm-4-32b-chat",
+    "huggingface_repo": "THUDM/glm-4-32b-chat-GGUF",
+    "release_date": "2024-08",
+    "scores": {
+      "speed": 4,
+      "quality": 9,
+      "coding": 9,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/glm4-32b.html"
+    }
+  },
+  {
+    "id": "glm4-9b",
+    "source_id": "glm4-9b",
+    "name": "GLM-4 (9B)",
+    "type": "local_llm",
+    "family": "glm",
+    "parameters": "9B",
+    "size_gb": 6,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "standard",
+      "general"
+    ],
+    "description": "Zhipu AI's efficient all-rounder. Strong bilingual performance (CN/EN). Model License (research/personal use; commercial contact Zhipu).",
+    "lm_studio_search_term": "glm-4-9b-chat",
+    "huggingface_repo": "THUDM/glm-4-9b-chat-GGUF",
+    "release_date": "2024-06",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/glm4-9b.html"
+    }
+  },
+  {
+    "id": "glm4.5-air",
+    "source_id": "glm4.5-air",
+    "name": "GLM 4.5 Air (MoE)",
+    "type": "local_llm",
+    "family": "glm",
+    "parameters": "106B (14B active, MoE)",
+    "size_gb": 9,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "Zhipu AI's efficient MoE powerhouse. 106B total parameters, only 14B active at inference — dense-model speed with much larger model quality. Clearly the best in the 16–24GB RAM range. Outperforms Llama 3.3 70B. Apache 2.0.",
+    "lm_studio_search_term": "glm-4.5-air",
+    "huggingface_repo": "THUDM/GLM-4.5-Air-GGUF",
+    "release_date": "2025-07",
+    "scores": {
+      "speed": 7,
+      "quality": 9,
+      "coding": 9,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/glm4.5-air.html"
+    }
+  },
+  {
+    "id": "glm4.6-air",
+    "source_id": "glm4.6-air",
+    "name": "GLM 4.6 Air (12B)",
+    "type": "local_llm",
+    "family": "glm",
+    "parameters": "12B",
+    "size_gb": 7.5,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "standard",
+      "general"
+    ],
+    "description": "Zhipu AI lightweight flagship. Strong bilingual CN/EN with hybrid thinking mode, 200K context and tool calling. Apache 2.0 — excellent alternative to Qwen 3.5 9B on modest GPUs.",
+    "lm_studio_search_term": "glm-4.6-air",
+    "huggingface_repo": "THUDM/GLM-4.6-Air-GGUF",
+    "release_date": "2026-02",
+    "scores": {
+      "speed": 8,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/glm4.6-air.html"
+    }
+  },
+  {
+    "id": "glm4.7",
+    "source_id": "glm4.7",
+    "name": "GLM 4.7",
+    "type": "local_llm",
+    "family": "glm",
+    "parameters": "26B",
+    "size_gb": 16,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "Zhipu AI's latest flagship. Major upgrade over GLM-4 with enhanced reasoning and coding. Strong bilingual (CN/EN). Ranks #17 on global usage leaderboards. Apache 2.0.",
+    "lm_studio_search_term": "glm-4.7",
+    "huggingface_repo": "THUDM/GLM-4.7-GGUF",
+    "release_date": "2025-12",
+    "scores": {
+      "speed": 5,
+      "quality": 9,
+      "coding": 9,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/glm4.7.html"
+    }
+  },
+  {
+    "id": "glm4.7-flash",
+    "source_id": "glm4.7-flash",
+    "name": "GLM 4.7 Flash",
+    "type": "local_llm",
+    "family": "glm",
+    "parameters": "14B",
+    "size_gb": 9,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "speed"
+    ],
+    "description": "Zhipu AI's fast GLM model. 14B parameters optimized for quick responses with strong bilingual (CN/EN) capabilities. Efficient inference for everyday tasks. Apache 2.0.",
+    "lm_studio_search_term": "glm-4.7-flash",
+    "huggingface_repo": "THUDM/GLM-4.7-Flash-GGUF",
+    "release_date": "2025-12",
+    "scores": {
+      "speed": 9,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/glm4.7-flash.html"
+    }
+  },
+  {
+    "id": "gpt-oss-20b",
+    "source_id": "gpt-oss-20b",
+    "name": "GPT-OSS (20B)",
+    "type": "local_llm",
+    "family": "gpt-oss",
+    "parameters": "20B",
+    "size_gb": 12,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "general"
+    ],
+    "description": "OpenAI open-weight reasoning model. First open release from OpenAI. Strong general + coding capabilities. 3.4M downloads.",
+    "lm_studio_search_term": "gpt-oss-20b",
+    "huggingface_repo": "openai/gpt-oss-20b",
+    "release_date": "2026-01",
+    "scores": {
+      "speed": 5,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/gpt-oss-20b.html"
+    }
+  },
+  {
+    "id": "granite3.2-vision-2b",
+    "source_id": "granite3.2-vision-2b",
+    "name": "Granite 3.2 Vision (2B)",
+    "type": "local_llm",
+    "family": "granite",
+    "parameters": "2B",
+    "size_gb": 1.4,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "vision",
+      "light",
+      "speed"
+    ],
+    "description": "IBM vision model for document extraction. Tiny but effective at understanding documents. 365K downloads.",
+    "lm_studio_search_term": "granite-3.2-2b-vision",
+    "huggingface_repo": "ibm-granite/granite-3.2-2b-vision-GGUF",
+    "release_date": "2025-02",
+    "scores": {
+      "speed": 10,
+      "quality": 5,
+      "coding": 3,
+      "reasoning": 5
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/granite3.2-vision-2b.html"
+    }
+  },
+  {
+    "id": "granite3.3-2b",
+    "source_id": "granite3.3-2b",
+    "name": "Granite 3.3 (2B Instruct)",
+    "type": "local_llm",
+    "family": "granite",
+    "parameters": "2B",
+    "size_gb": 1.4,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "light",
+      "edge",
+      "speed",
+      "code"
+    ],
+    "description": "IBM ultra-efficient 2B. Best-in-class among small models for tool calling & structured output. Perfect for on-device RAG and agents. 128K context. Apache 2.0.",
+    "lm_studio_search_term": "granite-3.3-2b-instruct",
+    "huggingface_repo": "ibm-granite/granite-3.3-2b-instruct-GGUF",
+    "release_date": "2025-10",
+    "scores": {
+      "speed": 10,
+      "quality": 6,
+      "coding": 6,
+      "reasoning": 5
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/granite3.3-2b.html"
+    }
+  },
+  {
+    "id": "granite3.3-8b-record-1",
+    "source_id": "granite3.3-8b",
+    "name": "Granite 3.3 (8B)",
+    "type": "local_llm",
+    "family": "granite",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "standard"
+    ],
+    "description": "IBM 128K context with reasoning. Thinking capabilities at 8B. 604K downloads.",
+    "lm_studio_search_term": "granite-3.3-8b-instruct",
+    "huggingface_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+    "release_date": "2025-03",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/granite3.3-8b.html"
+    },
+    "duplicate_group": "granite3.3-8b",
+    "duplicate_index": 1
+  },
+  {
+    "id": "granite3.3-8b-record-2",
+    "source_id": "granite3.3-8b",
+    "name": "Granite 3.3 (8B Instruct)",
+    "type": "local_llm",
+    "family": "granite",
+    "parameters": "8B",
+    "size_gb": 4.9,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "standard",
+      "general",
+      "reasoning"
+    ],
+    "description": "IBM enterprise-grade 8B. Trained for RAG, tool-use and structured output. Strong function calling and long-context performance (128K). Apache 2.0 with full data provenance.",
+    "lm_studio_search_term": "granite-3.3-8b-instruct",
+    "huggingface_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+    "release_date": "2025-10",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/granite3.3-8b.html"
+    },
+    "duplicate_group": "granite3.3-8b",
+    "duplicate_index": 2
+  },
+  {
+    "id": "granite4-8b",
+    "source_id": "granite4-8b",
+    "name": "Granite 4 (8B)",
+    "type": "local_llm",
+    "family": "granite",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "standard",
+      "general"
+    ],
+    "description": "IBM latest instruction + tool-use model. Best Granite yet. 20K downloads.",
+    "lm_studio_search_term": "granite-4-8b-instruct",
+    "huggingface_repo": "ibm-granite/granite-4-8b-instruct-GGUF",
+    "release_date": "2025-07",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/granite4-8b.html"
+    }
+  },
+  {
+    "id": "granite4.1-8b",
+    "source_id": "granite4.1-8b",
+    "name": "Granite 4.1 (8B)",
+    "type": "local_llm",
+    "family": "granite",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "standard",
+      "general"
+    ],
+    "description": "IBM Granite 4.1 long-context instruct model. Apache 2.0, 131K context, tool calling, RAG, code tasks, multilingual dialog and business assistant workflows on normal 8-16 GB machines.",
+    "lm_studio_search_term": "granite-4.1-8b",
+    "huggingface_repo": "ibm-granite/granite-4.1-8b",
+    "release_date": "2026-04",
+    "scores": {
+      "speed": 8,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/granite4.1-8b.html"
+    }
+  },
+  {
+    "id": "hermes3-8b",
+    "source_id": "hermes3-8b",
+    "name": "Hermes 3 (8B)",
+    "type": "local_llm",
+    "family": "hermes",
+    "parameters": "8B",
+    "size_gb": 4.7,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "standard",
+      "general"
+    ],
+    "description": "Nous Research flagship with function calling. Versatile and well-tuned. 340K downloads.",
+    "lm_studio_search_term": "hermes-3-llama-3.1-8b",
+    "huggingface_repo": "NousResearch/Hermes-3-Llama-3.1-8B-GGUF",
+    "release_date": "2024-08",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/hermes3-8b.html"
+    }
+  },
+  {
+    "id": "hermes4-405b",
+    "source_id": "hermes4-405b",
+    "name": "Hermes 4 (405B)",
+    "type": "local_llm",
+    "family": "hermes",
+    "parameters": "405B",
+    "size_gb": 230,
+    "min_ram_gb": 384,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "quality",
+      "general"
+    ],
+    "description": "Nous Research flagship 405B with hybrid thinking. Matches Claude 3.5 Sonnet and GPT-4o on reasoning benchmarks. Server-grade hardware only. Llama 3.1 Community License.",
+    "lm_studio_search_term": "hermes-4-405b",
+    "huggingface_repo": "NousResearch/Hermes-4-Llama-3.1-405B-GGUF",
+    "release_date": "2025-09",
+    "scores": {
+      "speed": 1,
+      "quality": 10,
+      "coding": 9,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/hermes4-405b.html"
+    }
+  },
+  {
+    "id": "hermes4-70b",
+    "source_id": "hermes4-70b",
+    "name": "Hermes 4 (70B)",
+    "type": "local_llm",
+    "family": "hermes",
+    "parameters": "70B",
+    "size_gb": 42,
+    "min_ram_gb": 48,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "Nous Research fine-tune with hybrid reasoning mode. Built on Llama 3.1 70B, aligned for steerability and neutral stance. Top-tier open RP/agent model. Llama 3.1 Community License.",
+    "lm_studio_search_term": "hermes-4-70b",
+    "huggingface_repo": "NousResearch/Hermes-4-Llama-3.1-70B-GGUF",
+    "release_date": "2025-09",
+    "scores": {
+      "speed": 3,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/hermes4-70b.html"
+    }
+  },
+  {
+    "id": "internlm2-7b",
+    "source_id": "internlm2-7b",
+    "name": "InternLM 2.5 (7B)",
+    "type": "local_llm",
+    "family": "internlm",
+    "parameters": "7B",
+    "size_gb": 4.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "standard"
+    ],
+    "description": "Practical reasoning model from Shanghai AI Lab. Strong bilingual. 101K downloads.",
+    "lm_studio_search_term": "internlm2_5-7b-chat",
+    "huggingface_repo": "internlm/internlm2_5-7b-chat-GGUF",
+    "release_date": "2024-07",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/internlm2-7b.html"
+    }
+  },
+  {
+    "id": "internvl3-8b",
+    "source_id": "internvl3-8b",
+    "name": "InternVL3 (8B)",
+    "type": "local_llm",
+    "family": "internvl",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "vision",
+      "standard"
+    ],
+    "description": "Shanghai AI Lab multimodal model. Strong vision understanding for documents, charts, and photos. MIT licensed. Note: primarily PyTorch/safetensors — community GGUF may vary.",
+    "lm_studio_search_term": "internvl3-8b",
+    "huggingface_repo": "OpenGVLab/InternVL3-8B-Instruct",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 7,
+      "quality": 7,
+      "coding": 5,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/internvl3-8b.html"
+    }
+  },
+  {
+    "id": "kimi-k2-instruct",
+    "source_id": "kimi-k2-instruct",
+    "name": "Kimi K2 Instruct (1T MoE)",
+    "type": "local_llm",
+    "family": "kimi",
+    "parameters": "1T (32B active, 384 experts)",
+    "size_gb": 600,
+    "min_ram_gb": 1024,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality",
+      "general"
+    ],
+    "description": "Moonshot AI trillion-parameter MoE flagship. 32B active params per token with 384 experts. Matches or beats GPT-4 Turbo on MMLU, GSM8K, HumanEval. Agentic & tool-use specialist. Server-grade only. Modified MIT.",
+    "lm_studio_search_term": "kimi-k2-instruct",
+    "huggingface_repo": "moonshotai/Kimi-K2-Instruct",
+    "release_date": "2025-07",
+    "scores": {
+      "speed": 3,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/kimi-k2-instruct.html"
+    }
+  },
+  {
+    "id": "kimi-k2-thinking",
+    "source_id": "kimi-k2-thinking",
+    "name": "Kimi K2 Thinking (1T MoE)",
+    "type": "local_llm",
+    "family": "kimi",
+    "parameters": "1T (32B active, 384 experts)",
+    "size_gb": 600,
+    "min_ram_gb": 1024,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "code",
+      "quality"
+    ],
+    "description": "Moonshot AI K2 with extended reasoning mode. Chain-of-thought traces before final answer. Top-5 on GPQA, AIME, SWE-bench. Requires datacenter-grade hardware or distributed inference. Modified MIT.",
+    "lm_studio_search_term": "kimi-k2-thinking",
+    "huggingface_repo": "moonshotai/Kimi-K2-Thinking",
+    "release_date": "2025-11",
+    "scores": {
+      "speed": 2,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/kimi-k2-thinking.html"
+    }
+  },
+  {
+    "id": "kimi-k2.5-32b",
+    "source_id": "kimi-k2.5-32b",
+    "name": "Kimi K2.5 (32B/1T MoE)",
+    "type": "local_llm",
+    "family": "kimi",
+    "parameters": "32B active (1T total MoE)",
+    "size_gb": 22,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "quality"
+    ],
+    "description": "Moonshot AI's agentic flagship. 1T total MoE parameters with 32B active per forward pass. Unmatched long-context reasoning at 256K tokens. Designed for complex agentic tasks and tool use. Model License — check moonshotai.com for commercial terms.",
+    "lm_studio_search_term": "kimi-k2.5-32b",
+    "huggingface_repo": "moonshotai/Kimi-K2.5-32B-GGUF",
+    "release_date": "2026-01",
+    "scores": {
+      "speed": 4,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/kimi-k2.5-32b.html"
+    }
+  },
+  {
+    "id": "kimi-linear-48b-a3b-instruct",
+    "source_id": "kimi-linear-48b-a3b-instruct",
+    "name": "Kimi Linear 48B-A3B Instruct",
+    "type": "local_llm",
+    "family": "kimi",
+    "parameters": "48B (3B active, MoE)",
+    "size_gb": 28,
+    "min_ram_gb": 48,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "moe",
+      "long-context"
+    ],
+    "description": "Moonshot AI efficient Kimi model with linear-attention style architecture and 3B active parameters. Strong long-context, reasoning and coding signal. MIT licensed.",
+    "lm_studio_search_term": "kimi-linear-48b-a3b-instruct",
+    "huggingface_repo": "moonshotai/Kimi-Linear-48B-A3B-Instruct",
+    "release_date": "2025-12",
+    "scores": {
+      "speed": 6,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/kimi-linear-48b-a3b-instruct.html"
+    }
+  },
+  {
+    "id": "lfm2.5-8b-a1b",
+    "source_id": "lfm2.5-8b-a1b",
+    "name": "LFM2.5-8B-A1B",
+    "type": "local_llm",
+    "family": "lfm",
+    "parameters": "8.3B (1.5B active)",
+    "size_gb": 5.2,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "speed",
+      "standard",
+      "general"
+    ],
+    "description": "Liquid AI hybrid model built for on-device assistants. 8.3B total / 1.5B active, 128K context, tool use, GGUF, ONNX, MLX, llama.cpp and LM Studio support. Open-weight under LFM 1.0.",
+    "lm_studio_search_term": "lfm2.5-8b-a1b",
+    "huggingface_repo": "LiquidAI/LFM2.5-8B-A1B-GGUF",
+    "release_date": "2026-06",
+    "scores": {
+      "speed": 9,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/lfm2.5-8b-a1b.html"
+    }
+  },
+  {
+    "id": "ling-1t",
+    "source_id": "ling-1t",
+    "name": "Ling 1T (1T MoE)",
+    "type": "local_llm",
+    "family": "ling",
+    "parameters": "1T (50B active)",
+    "size_gb": 620,
+    "min_ram_gb": 1024,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality"
+    ],
+    "description": "Ant Group / InclusionAI trillion-param MoE. 50B active per token, 128K context. Strong Chinese + English, open weights with commercial licence. Tops many bilingual benchmarks. Datacenter-only.",
+    "lm_studio_search_term": "ling-1t",
+    "huggingface_repo": "inclusionAI/Ling-1T",
+    "release_date": "2025-10",
+    "scores": {
+      "speed": 2,
+      "quality": 10,
+      "coding": 9,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/ling-1t.html"
+    }
+  },
+  {
+    "id": "ling-2.6-flash",
+    "source_id": "ling-2.6-flash",
+    "name": "Ling-2.6-flash (104B MoE)",
+    "type": "local_llm",
+    "family": "ling",
+    "parameters": "104B (7.4B active)",
+    "size_gb": 65,
+    "min_ram_gb": 80,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "speed",
+      "quality"
+    ],
+    "description": "InclusionAI's MIT-licensed instruct MoE optimized for fast agent workloads. 104B total parameters, only 7.4B active, hybrid linear attention, 262K context and strong tool-use / multi-step execution with high token efficiency.",
+    "lm_studio_search_term": "Ling-2.6-flash",
+    "huggingface_repo": "inclusionAI/Ling-2.6-flash",
+    "release_date": "2026-04",
+    "scores": {
+      "speed": 8,
+      "quality": 9,
+      "coding": 9,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "high-memory",
+      "page_url": "https://localclaw.io/models/ling-2.6-flash.html"
+    }
+  },
+  {
+    "id": "llama-guard3-8b",
+    "source_id": "llama-guard3-8b",
+    "name": "Llama Guard 3 (8B)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "8B",
+    "size_gb": 4.7,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "standard"
+    ],
+    "description": "Meta's content safety classifier. Detect unsafe content in LLM outputs. 86K downloads.",
+    "lm_studio_search_term": "llama-guard-3-8b",
+    "huggingface_repo": "meta-llama/Llama-Guard-3-8B-GGUF",
+    "release_date": "2024-09",
+    "scores": {
+      "speed": 8,
+      "quality": 6,
+      "coding": 2,
+      "reasoning": 5
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/llama-guard3-8b.html"
+    }
+  },
+  {
+    "id": "llama3-8b",
+    "source_id": "llama3-8b",
+    "name": "Llama 3 (8B)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "8B",
+    "size_gb": 4.7,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "standard",
+      "general"
+    ],
+    "description": "Meta Llama 3 original. Rock-solid foundation model. 11.2M downloads. Widely supported and fine-tuned.",
+    "lm_studio_search_term": "llama-3-8b-instruct",
+    "huggingface_repo": "lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
+    "release_date": "2024-04",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/llama3-8b.html"
+    }
+  },
+  {
+    "id": "llama3-chatqa-8b",
+    "source_id": "llama3-chatqa-8b",
+    "name": "Llama3 ChatQA (8B)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "8B",
+    "size_gb": 4.7,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "standard"
+    ],
+    "description": "NVIDIA RAG-optimized Llama 3. Excellent for question answering. 128K downloads.",
+    "lm_studio_search_term": "llama-3-chatqa-1.5-8b",
+    "huggingface_repo": "nvidia/Llama3-ChatQA-1.5-8B-GGUF",
+    "release_date": "2024-05",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 5,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/llama3-chatqa-8b.html"
+    }
+  },
+  {
+    "id": "llama3.1-70b",
+    "source_id": "llama3.1-70b",
+    "name": "Llama 3.1 (70B)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "70B",
+    "size_gb": 40,
+    "min_ram_gb": 48,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "general",
+      "power"
+    ],
+    "description": "Meta's 70B with 128K context. Solid but superseded by Llama 3.3 70B and newer models like GLM 4.5 Air.",
+    "lm_studio_search_term": "llama-3.1-70b-instruct",
+    "huggingface_repo": "lmstudio-community/Meta-Llama-3.1-70B-Instruct-GGUF",
+    "release_date": "2024-07",
+    "scores": {
+      "speed": 2,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/llama3.1-70b.html"
+    }
+  },
+  {
+    "id": "llama3.1-8b",
+    "source_id": "llama3.1-8b",
+    "name": "Llama 3.1 (8B)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "8B",
+    "size_gb": 4.7,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "general",
+      "standard",
+      "code"
+    ],
+    "description": "Meta's state-of-the-art open model. 128K context, strong multilingual support. 104M+ downloads. Industry standard.",
+    "lm_studio_search_term": "llama-3.1-8b-instruct",
+    "huggingface_repo": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
+    "release_date": "2024-07",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/llama3.1-8b.html"
+    }
+  },
+  {
+    "id": "llama3.1-nemotron-nano-4b",
+    "source_id": "llama3.1-nemotron-nano-4b",
+    "name": "Llama-3.1-Nemotron-Nano (4B)",
+    "type": "local_llm",
+    "family": "nemotron-llama-nano",
+    "parameters": "4B",
+    "size_gb": 2.8,
+    "min_ram_gb": 6,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "light",
+      "speed",
+      "reasoning"
+    ],
+    "description": "⭐ Mac Mini M4 16GB top pick! NVIDIA fine-tune of Llama 3.1. Hybrid /think • /no_think mode — deep reasoning on demand, instant chat otherwise. ~80–120 tok/s on Apple Silicon Metal. 128K context. Apache 2.0.",
+    "lm_studio_search_term": "llama-3.1-nemotron-nano-4b-v1",
+    "huggingface_repo": "lmstudio-community/Llama-3.1-Nemotron-Nano-4B-v1-GGUF",
+    "release_date": "2025-03",
+    "scores": {
+      "speed": 10,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/llama3.1-nemotron-nano-4b.html"
+    }
+  },
+  {
+    "id": "llama3.2-1b",
+    "source_id": "llama3.2-1b",
+    "name": "Llama 3.2 (1B)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "1B",
+    "size_gb": 0.6,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "light",
+      "speed",
+      "general"
+    ],
+    "description": "Meta's ultra-compact edge model. Runs on anything with 4GB RAM. Great for quick tasks and edge devices.",
+    "lm_studio_search_term": "llama-3.2-1b-instruct",
+    "huggingface_repo": "lmstudio-community/Llama-3.2-1B-Instruct-GGUF",
+    "release_date": "2024-09",
+    "scores": {
+      "speed": 10,
+      "quality": 3,
+      "coding": 3,
+      "reasoning": 3
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/llama3.2-1b.html"
+    }
+  },
+  {
+    "id": "llama3.2-3b",
+    "source_id": "llama3.2-3b",
+    "name": "Llama 3.2 (3B)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "3B",
+    "size_gb": 2.2,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "light",
+      "speed",
+      "general"
+    ],
+    "description": "Meta's compact powerhouse. Excellent instruction following for its size.",
+    "lm_studio_search_term": "llama-3.2-3b-instruct",
+    "huggingface_repo": "lmstudio-community/Llama-3.2-3B-Instruct-GGUF",
+    "release_date": "2024-09",
+    "scores": {
+      "speed": 9,
+      "quality": 5,
+      "coding": 5,
+      "reasoning": 5
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/llama3.2-3b.html"
+    }
+  },
+  {
+    "id": "llama3.2-vision-11b",
+    "source_id": "llama3.2-vision-11b",
+    "name": "Llama 3.2 Vision (11B)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "11B",
+    "size_gb": 6.5,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "vision",
+      "standard"
+    ],
+    "description": "Meta's vision-enabled Llama. Image reasoning + text generation. 2.6M downloads.",
+    "lm_studio_search_term": "llama-3.2-11b-vision-instruct",
+    "huggingface_repo": "lmstudio-community/Llama-3.2-11B-Vision-Instruct-GGUF",
+    "release_date": "2024-09",
+    "scores": {
+      "speed": 6,
+      "quality": 7,
+      "coding": 5,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/llama3.2-vision-11b.html"
+    }
+  },
+  {
+    "id": "llama3.2-vision-90b",
+    "source_id": "llama3.2-vision-90b",
+    "name": "Llama 3.2 Vision (90B)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "90B",
+    "size_gb": 55,
+    "min_ram_gb": 72,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "vision",
+      "quality"
+    ],
+    "description": "Meta's largest vision model. 128K context with powerful image reasoning and analysis. Requires significant hardware.",
+    "lm_studio_search_term": "llama-3.2-90b-vision-instruct",
+    "huggingface_repo": "meta-llama/Llama-3.2-90B-Vision-Instruct-GGUF",
+    "release_date": "2024-09",
+    "scores": {
+      "speed": 1,
+      "quality": 10,
+      "coding": 7,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "high-memory",
+      "page_url": "https://localclaw.io/models/llama3.2-vision-90b.html"
+    }
+  },
+  {
+    "id": "llama3.3-70b",
+    "source_id": "llama3.3-70b",
+    "name": "Llama 3.3 (70B)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "70B",
+    "size_gb": 42,
+    "min_ram_gb": 48,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "Meta's 70B workhorse. Good finetune ecosystem. Outperformed by GLM 4.5 Air and DeepSeek V3.2 for raw quality.",
+    "lm_studio_search_term": "llama-3.3-70b-instruct",
+    "huggingface_repo": "lmstudio-community/Llama-3.3-70B-Instruct-GGUF",
+    "release_date": "2024-12",
+    "scores": {
+      "speed": 2,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/llama3.3-70b.html"
+    }
+  },
+  {
+    "id": "llama3.3-8b",
+    "source_id": "llama3.3-8b",
+    "name": "Llama 3.3 (8B)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "8B",
+    "size_gb": 5.7,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "general",
+      "standard"
+    ],
+    "description": "Meta's refined 8B. Best all-around model for general use. Rock-solid instruction following.",
+    "lm_studio_search_term": "llama-3.3-8b-instruct",
+    "huggingface_repo": "lmstudio-community/Llama-3.3-8B-Instruct-GGUF",
+    "release_date": "2025-01",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/llama3.3-8b.html"
+    }
+  },
+  {
+    "id": "llama4-maverick",
+    "source_id": "llama4-maverick",
+    "name": "Llama 4 Maverick (17B/128E MoE)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "17B active (400B total, 128 experts)",
+    "size_gb": 220,
+    "min_ram_gb": 320,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "vision",
+      "quality"
+    ],
+    "description": "Meta's largest open MoE. 17B active params across 128 experts (~400B total). Multimodal with exceptional image reasoning. Server-grade hardware required. Llama 4 License.",
+    "lm_studio_search_term": "llama-4-maverick",
+    "huggingface_repo": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-GGUF",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 1,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/llama4-maverick.html"
+    }
+  },
+  {
+    "id": "llama4-maverick-17b-128e",
+    "source_id": "llama4-maverick-17b-128e",
+    "name": "Llama 4 Maverick (17B/400B MoE)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "400B (17B active, 128 experts)",
+    "size_gb": 240,
+    "min_ram_gb": 384,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "vision",
+      "reasoning",
+      "multimodal",
+      "quality"
+    ],
+    "description": "Meta Llama 4 Maverick — 128-expert MoE flagship. Matches or beats GPT-4o and Gemini 2.0 Flash on reasoning, coding and multimodal benchmarks. 1M-token context. Server-grade hardware only. Llama 4 Community License.",
+    "lm_studio_search_term": "llama-4-maverick-17b-128e-instruct",
+    "huggingface_repo": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 2,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/llama4-maverick-17b-128e.html"
+    }
+  },
+  {
+    "id": "llama4-scout",
+    "source_id": "llama4-scout",
+    "name": "Llama 4 Scout (17B/16E MoE)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "17B active (109B total, 16 experts)",
+    "size_gb": 10,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "vision",
+      "power",
+      "general"
+    ],
+    "description": "Meta's multimodal MoE model. 17B active params across 16 experts (~109B total). Built-in image understanding. 10M token context window. Apache 2.0. 728K downloads.",
+    "lm_studio_search_term": "llama-4-scout",
+    "huggingface_repo": "meta-llama/Llama-4-Scout-17B-16E-Instruct-GGUF",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 6,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/llama4-scout.html"
+    }
+  },
+  {
+    "id": "llama4-scout-17b-16e",
+    "source_id": "llama4-scout-17b-16e",
+    "name": "Llama 4 Scout (17B/109B MoE)",
+    "type": "local_llm",
+    "family": "llama",
+    "parameters": "109B (17B active, 16 experts)",
+    "size_gb": 65,
+    "min_ram_gb": 96,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "vision",
+      "reasoning",
+      "multimodal",
+      "power"
+    ],
+    "description": "Meta Llama 4 Scout — natively multimodal MoE with 16 experts. 10M-token context window. Outperforms Gemma 3 and Mistral Small on most benchmarks at similar active cost. Llama 4 Community License.",
+    "lm_studio_search_term": "llama-4-scout-17b-16e-instruct",
+    "huggingface_repo": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 5,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "high-memory",
+      "page_url": "https://localclaw.io/models/llama4-scout-17b-16e.html"
+    }
+  },
+  {
+    "id": "llava-1.6-7b",
+    "source_id": "llava-1.6-7b",
+    "name": "LLaVA 1.6 (7B)",
+    "type": "local_llm",
+    "family": "llava",
+    "parameters": "7B",
+    "size_gb": 4.8,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "vision",
+      "standard"
+    ],
+    "description": "The original multimodal hero. Drag & drop images into LM Studio to discuss them.",
+    "lm_studio_search_term": "llava-v1.6-mistral-7b",
+    "huggingface_repo": "lmstudio-community/llava-v1.6-mistral-7b-GGUF",
+    "release_date": "2024-02",
+    "scores": {
+      "speed": 7,
+      "quality": 6,
+      "coding": 3,
+      "reasoning": 5
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/llava-1.6-7b.html"
+    }
+  },
+  {
+    "id": "llava-13b",
+    "source_id": "llava-13b",
+    "name": "LLaVA 1.6 (13B)",
+    "type": "local_llm",
+    "family": "llava",
+    "parameters": "13B",
+    "size_gb": 8,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "vision",
+      "power"
+    ],
+    "description": "Larger LLaVA multimodal. Better image understanding than 7B. Describe, analyze and discuss images.",
+    "lm_studio_search_term": "llava-v1.6-13b",
+    "huggingface_repo": "lmstudio-community/llava-v1.6-vicuna-13b-GGUF",
+    "release_date": "2024-02",
+    "scores": {
+      "speed": 5,
+      "quality": 7,
+      "coding": 3,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/llava-13b.html"
+    }
+  },
+  {
+    "id": "llava-llama3-8b",
+    "source_id": "llava-llama3-8b",
+    "name": "LLaVA-Llama3 (8B)",
+    "type": "local_llm",
+    "family": "llava",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "vision",
+      "standard"
+    ],
+    "description": "LLaVA fine-tuned on Llama 3. Improved vision understanding. 1.9M downloads.",
+    "lm_studio_search_term": "llava-llama-3-8b",
+    "huggingface_repo": "xtuner/llava-llama-3-8b-v1_1-GGUF",
+    "release_date": "2024-04",
+    "scores": {
+      "speed": 7,
+      "quality": 7,
+      "coding": 4,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/llava-llama3-8b.html"
+    }
+  },
+  {
+    "id": "llava-phi3-3.8b",
+    "source_id": "llava-phi3-3.8b",
+    "name": "LLaVA-Phi3 (3.8B)",
+    "type": "local_llm",
+    "family": "llava",
+    "parameters": "3.8B",
+    "size_gb": 2.3,
+    "min_ram_gb": 6,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "vision",
+      "light",
+      "speed"
+    ],
+    "description": "Small LLaVA on Phi 3. Vision understanding at ultra-compact size. 126K downloads.",
+    "lm_studio_search_term": "llava-phi-3-mini",
+    "huggingface_repo": "xtuner/llava-phi-3-mini-GGUF",
+    "release_date": "2024-05",
+    "scores": {
+      "speed": 9,
+      "quality": 5,
+      "coding": 3,
+      "reasoning": 5
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/llava-phi3-3.8b.html"
+    }
+  },
+  {
+    "id": "magistral-24b",
+    "source_id": "magistral-24b",
+    "name": "Magistral (24B)",
+    "type": "local_llm",
+    "family": "mistral",
+    "parameters": "24B",
+    "size_gb": 14,
+    "min_ram_gb": 20,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "power"
+    ],
+    "description": "Mistral efficient reasoning model. Strong chain-of-thought at 24B. 477K downloads.",
+    "lm_studio_search_term": "magistral-24b",
+    "huggingface_repo": "mistralai/Magistral-24B-GGUF",
+    "release_date": "2025-07",
+    "scores": {
+      "speed": 5,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/magistral-24b.html"
+    }
+  },
+  {
+    "id": "marco-o1-7b",
+    "source_id": "marco-o1-7b",
+    "name": "Marco-o1 (7B)",
+    "type": "local_llm",
+    "family": "marco",
+    "parameters": "7B",
+    "size_gb": 4.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "standard"
+    ],
+    "description": "Alibaba open reasoning model. Good chain-of-thought reasoning at 7B. 52K downloads.",
+    "lm_studio_search_term": "marco-o1",
+    "huggingface_repo": "AIDC-AI/Marco-o1-GGUF",
+    "release_date": "2024-11",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/marco-o1-7b.html"
+    }
+  },
+  {
+    "id": "mathstral-7b",
+    "source_id": "mathstral-7b",
+    "name": "Mathstral (7B)",
+    "type": "local_llm",
+    "family": "mistral",
+    "parameters": "7B",
+    "size_gb": 4.1,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "reasoning",
+      "standard"
+    ],
+    "description": "Mistral math/science specialist. Optimized for math problem solving. 56K downloads.",
+    "lm_studio_search_term": "mathstral-7b-v0.1",
+    "huggingface_repo": "lmstudio-community/mathstral-7B-v0.1-GGUF",
+    "release_date": "2024-07",
+    "scores": {
+      "speed": 8,
+      "quality": 6,
+      "coding": 5,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/mathstral-7b.html"
+    }
+  },
+  {
+    "id": "mimo-v2.5-pro",
+    "source_id": "mimo-v2.5-pro",
+    "name": "MiMo-V2.5-Pro (1.02T MoE)",
+    "type": "local_llm",
+    "family": "mimo",
+    "parameters": "1.02T (42B active)",
+    "size_gb": 600,
+    "min_ram_gb": 1024,
+    "recommended_quantization": "FP8",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality",
+      "agentic",
+      "long-context",
+      "general"
+    ],
+    "description": "Xiaomi MiMo flagship MoE for demanding agentic, software engineering and long-horizon tasks. 1M-token context, FP8, strong instruction following. MIT licensed.",
+    "lm_studio_search_term": "mimo-v2.5-pro",
+    "huggingface_repo": "XiaomiMiMo/MiMo-V2.5-Pro",
+    "release_date": "2026-05",
+    "scores": {
+      "speed": 2,
+      "quality": 10,
+      "coding": 9,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/mimo-v2.5-pro.html"
+    }
+  },
+  {
+    "id": "minicpm-v-8b",
+    "source_id": "minicpm-v-8b",
+    "name": "MiniCPM-V (8B)",
+    "type": "local_llm",
+    "family": "minicpm",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "vision",
+      "standard"
+    ],
+    "description": "Compact multimodal VLM. Strong image understanding in a small package. 3.6M downloads.",
+    "lm_studio_search_term": "minicpm-v-2.6",
+    "huggingface_repo": "openbmb/MiniCPM-V-2_6-GGUF",
+    "release_date": "2024-08",
+    "scores": {
+      "speed": 7,
+      "quality": 7,
+      "coding": 4,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/minicpm-v-8b.html"
+    }
+  },
+  {
+    "id": "minimax-m2-230b",
+    "source_id": "minimax-m2-230b",
+    "name": "MiniMax M2 (230B MoE)",
+    "type": "local_llm",
+    "family": "minimax",
+    "parameters": "230B (10B active)",
+    "size_gb": 140,
+    "min_ram_gb": 192,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality"
+    ],
+    "description": "MiniMax MoE flagship with 10B active params and 4M-token long-context. Specialised for agentic coding and tool-use. Competitive with GPT-4 class models at a fraction of the inference cost. MIT licensed.",
+    "lm_studio_search_term": "minimax-m2",
+    "huggingface_repo": "MiniMaxAI/MiniMax-M2",
+    "release_date": "2025-10",
+    "scores": {
+      "speed": 5,
+      "quality": 9,
+      "coding": 10,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/minimax-m2-230b.html"
+    }
+  },
+  {
+    "id": "minimax-m2.1",
+    "source_id": "minimax-m2.1",
+    "name": "MiniMax M2.1",
+    "type": "local_llm",
+    "family": "minimax",
+    "parameters": "45B (MoE)",
+    "size_gb": 18,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "MiniMax's open-source MoE model. Outstanding long-context capabilities up to 200K tokens. Ranks #8 on global usage leaderboards with 23.5B monthly tokens. Apache 2.0.",
+    "lm_studio_search_term": "minimax-m2.1",
+    "huggingface_repo": "MiniMaxAI/MiniMax-M2.1-GGUF",
+    "release_date": "2025-09",
+    "scores": {
+      "speed": 5,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/minimax-m2.1.html"
+    }
+  },
+  {
+    "id": "mirothinker-1.7",
+    "source_id": "mirothinker-1.7",
+    "name": "MiroThinker 1.7 (30B MoE)",
+    "type": "local_llm",
+    "family": "mirothinker",
+    "parameters": "30B (3B active, MoE)",
+    "size_gb": 18,
+    "min_ram_gb": 48,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "code",
+      "power",
+      "quality"
+    ],
+    "description": "MiroMind AI second-gen deep-research agent. 30B MoE with stronger tool-use, 256K context, SOTA on BrowseComp-ZH (Chinese research). Designed for agentic workflows, not casual chat. Released March 2026. Apache 2.0.",
+    "lm_studio_search_term": "mirothinker-1.7",
+    "huggingface_repo": "miromind-ai/MiroThinker-1.7",
+    "release_date": "2026-03",
+    "scores": {
+      "speed": 3,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/mirothinker-1.7.html"
+    }
+  },
+  {
+    "id": "mirothinker-1.7-mini",
+    "source_id": "mirothinker-1.7-mini",
+    "name": "MiroThinker 1.7 Mini (30B MoE)",
+    "type": "local_llm",
+    "family": "mirothinker",
+    "parameters": "30B (3B active, MoE)",
+    "size_gb": 18,
+    "min_ram_gb": 48,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "code",
+      "power",
+      "quality"
+    ],
+    "description": "⚠️ Despite the \"Mini\" name, this is a full 30B MoE model (Qwen3-30B-A3B). 3B = active params per forward pass, NOT model size. ~82 GB full weights. Requires H100 80GB or multi-GPU. 256K context, multilingual (EN/ZH+), deep-research agent with tool calls. Released 11 Mar 2026. Apache 2.0.",
+    "lm_studio_search_term": "mirothinker-1.7-mini",
+    "huggingface_repo": "miromind-ai/MiroThinker-1.7-mini",
+    "release_date": "2026-03",
+    "scores": {
+      "speed": 3,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/mirothinker-1.7-mini.html"
+    }
+  },
+  {
+    "id": "mirothinker-30b",
+    "source_id": "mirothinker-30b",
+    "name": "MiroThinker v1.5 (30B MoE)",
+    "type": "local_llm",
+    "family": "mirothinker",
+    "parameters": "30B (3B active, MoE)",
+    "size_gb": 18,
+    "min_ram_gb": 48,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "code",
+      "power",
+      "quality"
+    ],
+    "description": "⚠️ Despite the small active count, this is a full 30B MoE model (Qwen3-30B-A3B base). ~82 GB full weights (Q4_K_M ≈18 GB). Deep-research agent with 256K context, tool calls, multilingual (EN/ZH). Requires H100 80 GB or serious multi-GPU. Not suitable for M1/M2 or consumer GPUs. Apache 2.0.",
+    "lm_studio_search_term": "mirothinker-v1.5-30b",
+    "huggingface_repo": "miromind-ai/MiroThinker-v1.5-30B",
+    "release_date": "2026-02",
+    "scores": {
+      "speed": 3,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/mirothinker-30b.html"
+    }
+  },
+  {
+    "id": "mistral-7b-v0.3",
+    "source_id": "mistral-7b-v0.3",
+    "name": "Mistral 7B v0.3",
+    "type": "local_llm",
+    "family": "mistral",
+    "parameters": "7B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "general",
+      "standard"
+    ],
+    "description": "The legendary Mistral. Still incredibly fast and reliable for everyday tasks.",
+    "lm_studio_search_term": "mistral-7b-instruct-v0.3",
+    "huggingface_repo": "lmstudio-community/Mistral-7B-Instruct-v0.3-GGUF",
+    "release_date": "2024-05",
+    "scores": {
+      "speed": 8,
+      "quality": 6,
+      "coding": 6,
+      "reasoning": 5
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/mistral-7b-v0.3.html"
+    }
+  },
+  {
+    "id": "mistral-large-123b",
+    "source_id": "mistral-large-123b",
+    "name": "Mistral Large (123B)",
+    "type": "local_llm",
+    "family": "mistral",
+    "parameters": "123B",
+    "size_gb": 70,
+    "min_ram_gb": 96,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "quality"
+    ],
+    "description": "Mistral flagship. 128K context. Top-tier coding and multilingual. 262K downloads. Requires serious hardware.",
+    "lm_studio_search_term": "mistral-large-instruct",
+    "huggingface_repo": "lmstudio-community/Mistral-Large-Instruct-2411-GGUF",
+    "release_date": "2024-11",
+    "scores": {
+      "speed": 1,
+      "quality": 10,
+      "coding": 9,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "high-memory",
+      "page_url": "https://localclaw.io/models/mistral-large-123b.html"
+    }
+  },
+  {
+    "id": "mistral-nemo-12b",
+    "source_id": "mistral-nemo-12b",
+    "name": "Mistral Nemo (12B)",
+    "type": "local_llm",
+    "family": "mistral",
+    "parameters": "12B",
+    "size_gb": 7.1,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "general",
+      "standard"
+    ],
+    "description": "Mistral x NVIDIA 128K context model. Excellent for long documents and conversations. 2.7M downloads.",
+    "lm_studio_search_term": "mistral-nemo-instruct",
+    "huggingface_repo": "lmstudio-community/Mistral-Nemo-Instruct-2407-GGUF",
+    "release_date": "2024-07",
+    "scores": {
+      "speed": 7,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/mistral-nemo-12b.html"
+    }
+  },
+  {
+    "id": "mistral-small-24b",
+    "source_id": "mistral-small-24b",
+    "name": "Mistral Small (24B)",
+    "type": "local_llm",
+    "family": "mistral",
+    "parameters": "24B",
+    "size_gb": 15,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "general",
+      "power",
+      "quality"
+    ],
+    "description": "Mistral's refined 24B model. Excellent for nuanced conversations and professional writing.",
+    "lm_studio_search_term": "mistral-small-24b-instruct",
+    "huggingface_repo": "lmstudio-community/Mistral-Small-24B-Instruct-2501-GGUF",
+    "release_date": "2025-01",
+    "scores": {
+      "speed": 5,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/mistral-small-24b.html"
+    }
+  },
+  {
+    "id": "mistral-small-3.2-24b",
+    "source_id": "mistral-small-3.2-24b",
+    "name": "Mistral Small 3.2 (24B)",
+    "type": "local_llm",
+    "family": "mistral",
+    "parameters": "24B",
+    "size_gb": 14,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "general",
+      "reasoning"
+    ],
+    "description": "Mistral AI's latest dense 24B. Improved instruction following, function calling, and reduced repetition. Strong European-language support. 128K context. Apache 2.0.",
+    "lm_studio_search_term": "mistral-small-3.2-24b-instruct",
+    "huggingface_repo": "mistralai/Mistral-Small-3.2-24B-Instruct-2506-GGUF",
+    "release_date": "2025-06",
+    "scores": {
+      "speed": 6,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/mistral-small-3.2-24b.html"
+    }
+  },
+  {
+    "id": "mistral-small3.1-24b",
+    "source_id": "mistral-small3.1-24b",
+    "name": "Mistral Small 3.1 (24B)",
+    "type": "local_llm",
+    "family": "mistral",
+    "parameters": "24B",
+    "size_gb": 14,
+    "min_ram_gb": 20,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "vision",
+      "power"
+    ],
+    "description": "Mistral Small + vision + 128K context. See and understand images. 311K downloads.",
+    "lm_studio_search_term": "mistral-small-3.1-24b-instruct",
+    "huggingface_repo": "lmstudio-community/Mistral-Small-3.1-24B-Instruct-GGUF",
+    "release_date": "2025-03",
+    "scores": {
+      "speed": 5,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/mistral-small3.1-24b.html"
+    }
+  },
+  {
+    "id": "mistral-small3.2-24b",
+    "source_id": "mistral-small3.2-24b",
+    "name": "Mistral Small 3.2 (24B)",
+    "type": "local_llm",
+    "family": "mistral",
+    "parameters": "24B",
+    "size_gb": 14,
+    "min_ram_gb": 20,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "general",
+      "power"
+    ],
+    "description": "Improved Mistral Small with function calling. Great for tool-use and agents. 677K downloads.",
+    "lm_studio_search_term": "mistral-small-3.2-24b-instruct",
+    "huggingface_repo": "lmstudio-community/Mistral-Small-3.2-24B-Instruct-GGUF",
+    "release_date": "2025-06",
+    "scores": {
+      "speed": 5,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/mistral-small3.2-24b.html"
+    }
+  },
+  {
+    "id": "mixtral-8x7b",
+    "source_id": "mixtral-8x7b",
+    "name": "Mixtral (8x7B)",
+    "type": "local_llm",
+    "family": "mixtral",
+    "parameters": "8x7B (46.7B)",
+    "size_gb": 26,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "general",
+      "power",
+      "quality"
+    ],
+    "description": "Mistral's MoE pioneer. 46.7B total, fast inference via sparse activation. Multilingual. 1.4M downloads.",
+    "lm_studio_search_term": "mixtral-8x7b-instruct",
+    "huggingface_repo": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF",
+    "release_date": "2024-01",
+    "scores": {
+      "speed": 4,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/mixtral-8x7b.html"
+    }
+  },
+  {
+    "id": "moondream2",
+    "source_id": "moondream2",
+    "name": "Moondream 2",
+    "type": "local_llm",
+    "family": "moondream",
+    "parameters": "1.9B",
+    "size_gb": 1.9,
+    "min_ram_gb": 4,
+    "recommended_quantization": "fp16",
+    "tags": [
+      "vision",
+      "light",
+      "speed"
+    ],
+    "description": "Tiny vision model. Surprisingly good at describing images and OCR. Runs on anything.",
+    "lm_studio_search_term": "moondream2",
+    "huggingface_repo": "vikhyatk/moondream2",
+    "release_date": "2024-07",
+    "scores": {
+      "speed": 10,
+      "quality": 4,
+      "coding": 2,
+      "reasoning": 3
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/moondream2.html"
+    }
+  },
+  {
+    "id": "nemotron-mini-4b",
+    "source_id": "nemotron-mini-4b",
+    "name": "Nemotron Mini (4B)",
+    "type": "local_llm",
+    "family": "nemotron",
+    "parameters": "4B",
+    "size_gb": 2.5,
+    "min_ram_gb": 6,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "light",
+      "speed"
+    ],
+    "description": "NVIDIA small model for RAG + roleplay + function calling. Compact and versatile. 107K downloads.",
+    "lm_studio_search_term": "nemotron-mini-4b-instruct",
+    "huggingface_repo": "nvidia/Nemotron-Mini-4B-Instruct-GGUF",
+    "release_date": "2024-08",
+    "scores": {
+      "speed": 9,
+      "quality": 6,
+      "coding": 5,
+      "reasoning": 5
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/nemotron-mini-4b.html"
+    }
+  },
+  {
+    "id": "nemotron-nano-9b-v2",
+    "source_id": "nemotron-nano-9b-v2",
+    "name": "Nemotron Nano 9B v2",
+    "type": "local_llm",
+    "family": "nemotron",
+    "parameters": "9B",
+    "size_gb": 5.5,
+    "min_ram_gb": 10,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "code",
+      "standard",
+      "general"
+    ],
+    "description": "NVIDIA hybrid Mamba-Transformer 9B. 6x throughput vs comparable dense models, 128K context, strong maths/code. Efficient toggle-able reasoning. NVIDIA Open Model License.",
+    "lm_studio_search_term": "nvidia-nemotron-nano-9b-v2",
+    "huggingface_repo": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+    "release_date": "2025-08",
+    "scores": {
+      "speed": 9,
+      "quality": 7,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/nemotron-nano-9b-v2.html"
+    }
+  },
+  {
+    "id": "nemotron3-49b",
+    "source_id": "nemotron3-49b",
+    "name": "Llama-3.3-Nemotron-Super (49B)",
+    "type": "local_llm",
+    "family": "nemotron",
+    "parameters": "49B",
+    "size_gb": 30,
+    "min_ram_gb": 40,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "code",
+      "power",
+      "quality"
+    ],
+    "description": "NVIDIA's super-efficient 49B distilled from DeepSeek-R1 + Llama. Outperforms Llama-3.3-70B at half the compute. Strong reasoning, coding & instruction following. Runs on Mac Studio 64GB. NVIDIA Open Model License.",
+    "lm_studio_search_term": "llama-3.3-nemotron-super-49b-v1",
+    "huggingface_repo": "nvidia/Llama-3.3-Nemotron-Super-49B-v1-GGUF",
+    "release_date": "2025-02",
+    "scores": {
+      "speed": 4,
+      "quality": 9,
+      "coding": 9,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/nemotron3-49b.html"
+    }
+  },
+  {
+    "id": "nemotron3-70b",
+    "source_id": "nemotron3-70b",
+    "name": "Llama-3.1-Nemotron (70B)",
+    "type": "local_llm",
+    "family": "nemotron",
+    "parameters": "70B",
+    "size_gb": 42,
+    "min_ram_gb": 48,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "NVIDIA fine-tune of Llama 3.1 70B. Best-in-class instruction following and alignment. Ranked #1 on MT-Bench at release. Exceptional helpfulness and safety. Compatible with Mac (Apple Silicon 64GB). NVIDIA Open Model License.",
+    "lm_studio_search_term": "llama-3.1-nemotron-70b-instruct",
+    "huggingface_repo": "nvidia/Llama-3.1-Nemotron-70B-Instruct-GGUF",
+    "release_date": "2024-11",
+    "scores": {
+      "speed": 3,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/nemotron3-70b.html"
+    }
+  },
+  {
+    "id": "nemotron3-nano-4b",
+    "source_id": "nemotron3-nano-4b",
+    "name": "Nemotron 3 Nano (4B)",
+    "type": "local_llm",
+    "family": "nemotron-nano",
+    "parameters": "4B",
+    "size_gb": 2.8,
+    "min_ram_gb": 6,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "light",
+      "speed",
+      "reasoning"
+    ],
+    "description": "⭐ Mac Mini M4 16GB top pick! NVIDIA's hybrid model — distilled from 9B, keeps 95% of its quality. Hybrid attention + SSM layers = ~80–120 tok/s on Apple Silicon. Blazing fast, minimal RAM. NVIDIA Open Model License.",
+    "lm_studio_search_term": "nvidia-nemotron-3-nano-4b",
+    "huggingface_repo": "nvidia/NVIDIA-Nemotron-3-Nano-4B-GGUF",
+    "release_date": "2025-02",
+    "scores": {
+      "speed": 10,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/nemotron3-nano-4b.html"
+    }
+  },
+  {
+    "id": "nuextract-3.8b",
+    "source_id": "nuextract-3.8b",
+    "name": "NuExtract (3.8B)",
+    "type": "local_llm",
+    "family": "nuextract",
+    "parameters": "3.8B",
+    "size_gb": 2.3,
+    "min_ram_gb": 6,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "light",
+      "speed"
+    ],
+    "description": "Information extraction specialist on Phi-3. Great for structured data extraction. 43K downloads.",
+    "lm_studio_search_term": "nuextract",
+    "huggingface_repo": "NuMind/NuExtract-GGUF",
+    "release_date": "2024-06",
+    "scores": {
+      "speed": 9,
+      "quality": 5,
+      "coding": 3,
+      "reasoning": 5
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/nuextract-3.8b.html"
+    }
+  },
+  {
+    "id": "olmo2-32b",
+    "source_id": "olmo2-32b",
+    "name": "OLMo 2 (32B)",
+    "type": "local_llm",
+    "family": "olmo",
+    "parameters": "32B",
+    "size_gb": 19,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "power",
+      "general"
+    ],
+    "description": "Allen AI fully open 32B model. Weights, data, training code all public. Strong general purpose at 32B. Apache 2.0.",
+    "lm_studio_search_term": "olmo2-32b-instruct",
+    "huggingface_repo": "allenai/OLMo-2-0325-32B-Instruct-GGUF",
+    "release_date": "2025-03",
+    "scores": {
+      "speed": 4,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/olmo2-32b.html"
+    }
+  },
+  {
+    "id": "olmo2-7b",
+    "source_id": "olmo2-7b",
+    "name": "OLMo 2 (7B)",
+    "type": "local_llm",
+    "family": "olmo",
+    "parameters": "7B",
+    "size_gb": 4.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "standard",
+      "general"
+    ],
+    "description": "Allen AI fully open model. Weights, data, code all public. Great for research. 3M downloads.",
+    "lm_studio_search_term": "olmo2-7b-instruct",
+    "huggingface_repo": "allenai/OLMo-2-7B-Instruct-GGUF",
+    "release_date": "2025-01",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/olmo2-7b.html"
+    }
+  },
+  {
+    "id": "openchat-7b",
+    "source_id": "openchat-7b",
+    "name": "OpenChat 3.5 (7B)",
+    "type": "local_llm",
+    "family": "openchat",
+    "parameters": "7B",
+    "size_gb": 4.1,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "standard",
+      "general"
+    ],
+    "description": "Open-source beating ChatGPT 3.5 on benchmarks. Great chat quality. 201K downloads.",
+    "lm_studio_search_term": "openchat-3.5-0106",
+    "huggingface_repo": "TheBloke/openchat-3.5-0106-GGUF",
+    "release_date": "2024-01",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/openchat-7b.html"
+    }
+  },
+  {
+    "id": "opencoder-8b",
+    "source_id": "opencoder-8b",
+    "name": "OpenCoder (8B)",
+    "type": "local_llm",
+    "family": "opencoder",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "code",
+      "standard"
+    ],
+    "description": "Open reproducible code LLM. Fully transparent training. Bilingual coding. 172K downloads.",
+    "lm_studio_search_term": "opencoder-8b-instruct",
+    "huggingface_repo": "infly/OpenCoder-8B-Instruct-GGUF",
+    "release_date": "2024-11",
+    "scores": {
+      "speed": 8,
+      "quality": 6,
+      "coding": 8,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/opencoder-8b.html"
+    }
+  },
+  {
+    "id": "openthinker-7b",
+    "source_id": "openthinker-7b",
+    "name": "OpenThinker (7B)",
+    "type": "local_llm",
+    "family": "openthinker",
+    "parameters": "7B",
+    "size_gb": 4.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "standard"
+    ],
+    "description": "Open reasoning model distilled from DeepSeek R1. Excellent chain-of-thought. 601K downloads.",
+    "lm_studio_search_term": "openthinker-7b",
+    "huggingface_repo": "open-thoughts/OpenThinker-7B-GGUF",
+    "release_date": "2025-02",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/openthinker-7b.html"
+    }
+  },
+  {
+    "id": "phi3-14b",
+    "source_id": "phi3-14b",
+    "name": "Phi-3 Medium (14B)",
+    "type": "local_llm",
+    "family": "phi",
+    "parameters": "14B",
+    "size_gb": 8,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "power"
+    ],
+    "description": "Microsoft's medium Phi-3. Strong reasoning capabilities for its size. Good balance of speed and quality.",
+    "lm_studio_search_term": "phi-3-medium-4k-instruct",
+    "huggingface_repo": "lmstudio-community/Phi-3-medium-4k-instruct-GGUF",
+    "release_date": "2024-04",
+    "scores": {
+      "speed": 6,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/phi3-14b.html"
+    }
+  },
+  {
+    "id": "phi3-3.8b",
+    "source_id": "phi3-3.8b",
+    "name": "Phi-3 (3.8B)",
+    "type": "local_llm",
+    "family": "phi",
+    "parameters": "3.8B",
+    "size_gb": 2.3,
+    "min_ram_gb": 6,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "reasoning",
+      "light",
+      "speed"
+    ],
+    "description": "Microsoft lightweight powerhouse. Punches way above its weight. 11.3M downloads. Great for edge devices.",
+    "lm_studio_search_term": "phi-3-mini-4k-instruct",
+    "huggingface_repo": "lmstudio-community/Phi-3-mini-4k-instruct-GGUF",
+    "release_date": "2024-04",
+    "scores": {
+      "speed": 9,
+      "quality": 6,
+      "coding": 6,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/phi3-3.8b.html"
+    }
+  },
+  {
+    "id": "phi3.5-3.8b",
+    "source_id": "phi3.5-3.8b",
+    "name": "Phi-3.5 (3.8B)",
+    "type": "local_llm",
+    "family": "phi",
+    "parameters": "3.8B",
+    "size_gb": 2.3,
+    "min_ram_gb": 6,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "light",
+      "speed"
+    ],
+    "description": "Phi 3.5 overtaking larger models. Excellent small model from Microsoft. 333K downloads.",
+    "lm_studio_search_term": "phi-3.5-mini-instruct",
+    "huggingface_repo": "lmstudio-community/Phi-3.5-mini-instruct-GGUF",
+    "release_date": "2024-08",
+    "scores": {
+      "speed": 9,
+      "quality": 6,
+      "coding": 6,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/phi3.5-3.8b.html"
+    }
+  },
+  {
+    "id": "phi3.5-moe-instruct",
+    "source_id": "phi3.5-moe-instruct",
+    "name": "Phi-3.5 MoE Instruct",
+    "type": "local_llm",
+    "family": "phi",
+    "parameters": "42B (6.6B active, MoE)",
+    "size_gb": 24,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "moe"
+    ],
+    "description": "Microsoft Phi-3.5 MoE: compact mixture-of-experts model with only ~6.6B active parameters. Strong reasoning and coding for local power users. MIT licensed.",
+    "lm_studio_search_term": "phi-3.5-moe-instruct",
+    "huggingface_repo": "microsoft/Phi-3.5-MoE-instruct",
+    "release_date": "2025-12",
+    "scores": {
+      "speed": 6,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/phi3.5-moe-instruct.html"
+    }
+  },
+  {
+    "id": "phi4-14b",
+    "source_id": "phi4-14b",
+    "name": "Phi-4 (14B)",
+    "type": "local_llm",
+    "family": "phi",
+    "parameters": "14B",
+    "size_gb": 9,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "reasoning"
+    ],
+    "description": "Microsoft's full Phi-4. Compact powerhouse with exceptional reasoning and coding for its size. MIT licensed.",
+    "lm_studio_search_term": "phi-4-instruct",
+    "huggingface_repo": "lmstudio-community/Phi-4-Instruct-GGUF",
+    "release_date": "2025-01",
+    "scores": {
+      "speed": 7,
+      "quality": 8,
+      "coding": 9,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/phi4-14b.html"
+    }
+  },
+  {
+    "id": "phi4-mini",
+    "source_id": "phi4-mini",
+    "name": "Phi-4 Mini (3.8B)",
+    "type": "local_llm",
+    "family": "phi",
+    "parameters": "3.8B",
+    "size_gb": 2.5,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "light",
+      "speed"
+    ],
+    "description": "Microsoft's latest small miracle. Punches way above its weight in reasoning & code.",
+    "lm_studio_search_term": "phi-4-mini-instruct",
+    "huggingface_repo": "lmstudio-community/Phi-4-mini-instruct-GGUF",
+    "release_date": "2025-02",
+    "scores": {
+      "speed": 9,
+      "quality": 6,
+      "coding": 7,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/phi4-mini.html"
+    }
+  },
+  {
+    "id": "phi4-mini-reasoning",
+    "source_id": "phi4-mini-reasoning",
+    "name": "Phi-4 Mini Reasoning (3.8B)",
+    "type": "local_llm",
+    "family": "phi",
+    "parameters": "3.8B",
+    "size_gb": 2.3,
+    "min_ram_gb": 6,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "reasoning",
+      "light",
+      "speed"
+    ],
+    "description": "Phi-4 mini balanced reasoning variant. Good chain-of-thought at tiny size. 62K downloads.",
+    "lm_studio_search_term": "phi-4-mini-reasoning",
+    "huggingface_repo": "microsoft/Phi-4-mini-reasoning-GGUF",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 9,
+      "quality": 6,
+      "coding": 6,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/phi4-mini-reasoning.html"
+    }
+  },
+  {
+    "id": "phi4-reasoning-14b",
+    "source_id": "phi4-reasoning-14b",
+    "name": "Phi-4 Reasoning (14B)",
+    "type": "local_llm",
+    "family": "phi",
+    "parameters": "14B",
+    "size_gb": 8.5,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "reasoning",
+      "code",
+      "power"
+    ],
+    "description": "Microsoft Phi-4 reasoning variant. Top choice for 14B reasoning — much better than DeepSeek R1 14B. Rivals larger models on math & logic.",
+    "lm_studio_search_term": "phi-4-reasoning",
+    "huggingface_repo": "microsoft/Phi-4-reasoning-GGUF",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 6,
+      "quality": 8,
+      "coding": 9,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/phi4-reasoning-14b.html"
+    }
+  },
+  {
+    "id": "qwen2-math-72b",
+    "source_id": "qwen2-math-72b",
+    "name": "Qwen2 Math (72B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "72B",
+    "size_gb": 42,
+    "min_ram_gb": 64,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "quality"
+    ],
+    "description": "Qwen2 math specialist beating GPT4o on math benchmarks. 173K downloads.",
+    "lm_studio_search_term": "qwen2-math-72b-instruct",
+    "huggingface_repo": "Qwen/Qwen2-Math-72B-Instruct-GGUF",
+    "release_date": "2024-08",
+    "scores": {
+      "speed": 2,
+      "quality": 9,
+      "coding": 7,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/qwen2-math-72b.html"
+    }
+  },
+  {
+    "id": "qwen2.5-14b",
+    "source_id": "qwen2.5-14b",
+    "name": "Qwen 2.5 (14B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "14B",
+    "size_gb": 8.5,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "general"
+    ],
+    "description": "Strong 14B from Alibaba. 18T tokens training. Excellent for multilingual tasks and coding.",
+    "lm_studio_search_term": "qwen2.5-14b-instruct",
+    "huggingface_repo": "lmstudio-community/Qwen2.5-14B-Instruct-GGUF",
+    "release_date": "2024-09",
+    "scores": {
+      "speed": 6,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/qwen2.5-14b.html"
+    }
+  },
+  {
+    "id": "qwen2.5-72b",
+    "source_id": "qwen2.5-72b",
+    "name": "Qwen 2.5 (72B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "72B",
+    "size_gb": 42,
+    "min_ram_gb": 64,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "quality",
+      "general"
+    ],
+    "description": "Alibaba's massive 72B. Among the best open models globally. Exceptional multilingual + coding + reasoning.",
+    "lm_studio_search_term": "qwen2.5-72b-instruct",
+    "huggingface_repo": "lmstudio-community/Qwen2.5-72B-Instruct-GGUF",
+    "release_date": "2024-09",
+    "scores": {
+      "speed": 2,
+      "quality": 10,
+      "coding": 9,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/qwen2.5-72b.html"
+    }
+  },
+  {
+    "id": "qwen2.5-7b",
+    "source_id": "qwen2.5-7b",
+    "name": "Qwen 2.5 (7B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "7B",
+    "size_gb": 4.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "standard",
+      "general"
+    ],
+    "description": "Alibaba's 18T token trained model. Excellent multilingual and coding. 14.9M downloads. Wide community support.",
+    "lm_studio_search_term": "qwen2.5-7b-instruct",
+    "huggingface_repo": "lmstudio-community/Qwen2.5-7B-Instruct-GGUF",
+    "release_date": "2024-09",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 8,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/qwen2.5-7b.html"
+    }
+  },
+  {
+    "id": "qwen2.5-coder-32b",
+    "source_id": "qwen2.5-coder-32b",
+    "name": "Qwen 2.5 Coder (32B)",
+    "type": "local_llm",
+    "family": "qwen-coder",
+    "parameters": "32B",
+    "size_gb": 19,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "code",
+      "power",
+      "quality"
+    ],
+    "description": "Best open-source code model at 32B. Outstanding code generation, completion and refactoring. 7.5M downloads.",
+    "lm_studio_search_term": "qwen2.5-coder-32b-instruct",
+    "huggingface_repo": "lmstudio-community/Qwen2.5-Coder-32B-Instruct-GGUF",
+    "release_date": "2024-11",
+    "scores": {
+      "speed": 4,
+      "quality": 8,
+      "coding": 10,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/qwen2.5-coder-32b.html"
+    }
+  },
+  {
+    "id": "qwen2.5-coder-7b",
+    "source_id": "qwen2.5-coder-7b",
+    "name": "Qwen 2.5 Coder (7B)",
+    "type": "local_llm",
+    "family": "qwen-coder",
+    "parameters": "7B",
+    "size_gb": 5.2,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "code",
+      "standard"
+    ],
+    "description": "Specialized coding powerhouse. Best-in-class for code generation, completion and debugging at 7B.",
+    "lm_studio_search_term": "qwen2.5-coder-7b-instruct",
+    "huggingface_repo": "lmstudio-community/Qwen2.5-Coder-7B-Instruct-GGUF",
+    "release_date": "2024-11",
+    "scores": {
+      "speed": 8,
+      "quality": 6,
+      "coding": 9,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/qwen2.5-coder-7b.html"
+    }
+  },
+  {
+    "id": "qwen2.5-vl-72b",
+    "source_id": "qwen2.5-vl-72b",
+    "name": "Qwen 2.5 VL (72B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "72B",
+    "size_gb": 42,
+    "min_ram_gb": 64,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "vision",
+      "quality"
+    ],
+    "description": "Qwen massive vision-language model. Exceptional image and video understanding at 72B scale. 72K context.",
+    "lm_studio_search_term": "qwen2.5-vl-72b-instruct",
+    "huggingface_repo": "Qwen/Qwen2.5-VL-72B-Instruct-GGUF",
+    "release_date": "2025-01",
+    "scores": {
+      "speed": 2,
+      "quality": 10,
+      "coding": 7,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/qwen2.5-vl-72b.html"
+    }
+  },
+  {
+    "id": "qwen2.5vl-7b",
+    "source_id": "qwen2.5vl-7b",
+    "name": "Qwen 2.5 VL (7B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "7B",
+    "size_gb": 4.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "vision",
+      "standard"
+    ],
+    "description": "Qwen flagship vision-language model. Excellent at image understanding. 732K downloads.",
+    "lm_studio_search_term": "qwen2.5-vl-7b-instruct",
+    "huggingface_repo": "Qwen/Qwen2.5-VL-7B-Instruct-GGUF",
+    "release_date": "2025-01",
+    "scores": {
+      "speed": 7,
+      "quality": 7,
+      "coding": 5,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/qwen2.5vl-7b.html"
+    }
+  },
+  {
+    "id": "qwen3-14b",
+    "source_id": "qwen3-14b",
+    "name": "Qwen 3 (14B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "14B",
+    "size_gb": 9.5,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "general"
+    ],
+    "description": "The sweet spot. Incredible reasoning, coding and chat quality. The best model you can run on 16GB.",
+    "lm_studio_search_term": "qwen3-14b",
+    "huggingface_repo": "lmstudio-community/Qwen3-14B-GGUF",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 6,
+      "quality": 9,
+      "coding": 9,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/qwen3-14b.html"
+    }
+  },
+  {
+    "id": "qwen3-235b-a22b",
+    "source_id": "qwen3-235b-a22b",
+    "name": "Qwen 3 MoE (235B/22B active)",
+    "type": "local_llm",
+    "family": "qwen-moe",
+    "parameters": "235B (22B active)",
+    "size_gb": 80,
+    "min_ram_gb": 96,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality"
+    ],
+    "description": "Mixture of Experts behemoth. Only 22B params active at once = fast despite massive size. Top-tier.",
+    "lm_studio_search_term": "qwen3-235b-a22b",
+    "huggingface_repo": "lmstudio-community/Qwen3-235B-A22B-GGUF",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 3,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "high-memory",
+      "page_url": "https://localclaw.io/models/qwen3-235b-a22b.html"
+    }
+  },
+  {
+    "id": "qwen3-30b-a3b",
+    "source_id": "qwen3-30b-a3b",
+    "name": "Qwen 3 MoE (30B/3B active)",
+    "type": "local_llm",
+    "family": "qwen-moe",
+    "parameters": "30B (3B active)",
+    "size_gb": 18,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "speed"
+    ],
+    "description": "Efficient MoE model with only 3B active params. Fast inference at large model quality. Hybrid thinking mode. Apache 2.0.",
+    "lm_studio_search_term": "qwen3-30b-a3b",
+    "huggingface_repo": "lmstudio-community/Qwen3-30B-A3B-GGUF",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 8,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/qwen3-30b-a3b.html"
+    }
+  },
+  {
+    "id": "qwen3-32b",
+    "source_id": "qwen3-32b",
+    "name": "Qwen 3 (32B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "32B",
+    "size_gb": 20,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "Near GPT-4 intelligence locally. Thinking mode demolishes hard problems. The local AI dream.",
+    "lm_studio_search_term": "qwen3-32b",
+    "huggingface_repo": "lmstudio-community/Qwen3-32B-GGUF",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 4,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/qwen3-32b.html"
+    }
+  },
+  {
+    "id": "qwen3-4b",
+    "source_id": "qwen3-4b",
+    "name": "Qwen 3 (4B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "4B",
+    "size_gb": 2.8,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "light",
+      "speed",
+      "reasoning"
+    ],
+    "description": "Alibaba's think-then-answer model. Built-in chain-of-thought reasoning at just 4B params.",
+    "lm_studio_search_term": "qwen3-4b",
+    "huggingface_repo": "lmstudio-community/Qwen3-4B-GGUF",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 9,
+      "quality": 6,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/qwen3-4b.html"
+    }
+  },
+  {
+    "id": "qwen3-8b",
+    "source_id": "qwen3-8b",
+    "name": "Qwen 3 (8B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "8B",
+    "size_gb": 5.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "standard",
+      "general",
+      "reasoning"
+    ],
+    "description": "One of the best 8B models ever made. Thinking mode + lightning fast. The new king of 8B.",
+    "lm_studio_search_term": "qwen3-8b",
+    "huggingface_repo": "lmstudio-community/Qwen3-8B-GGUF",
+    "release_date": "2025-04",
+    "scores": {
+      "speed": 8,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/qwen3-8b.html"
+    }
+  },
+  {
+    "id": "qwen3-coder-30b",
+    "source_id": "qwen3-coder-30b",
+    "name": "Qwen 3 Coder (30B)",
+    "type": "local_llm",
+    "family": "qwen-coder",
+    "parameters": "30B",
+    "size_gb": 18,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "code",
+      "power",
+      "quality"
+    ],
+    "description": "Qwen flagship coding model. Designed for agentic coding with 256K context. Outperforms Claude 3.5 Sonnet on SWE-bench. Apache 2.0.",
+    "lm_studio_search_term": "qwen3-coder-30b",
+    "huggingface_repo": "Qwen/Qwen3-Coder-30B-GGUF",
+    "release_date": "2025-07",
+    "scores": {
+      "speed": 5,
+      "quality": 9,
+      "coding": 10,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/qwen3-coder-30b.html"
+    }
+  },
+  {
+    "id": "qwen3-coder-8b",
+    "source_id": "qwen3-coder-8b",
+    "name": "Qwen 3 Coder (8B)",
+    "type": "local_llm",
+    "family": "qwen-coder",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "code",
+      "standard"
+    ],
+    "description": "Qwen coding specialist with long context. Great for agentic coding tasks. 477K downloads.",
+    "lm_studio_search_term": "qwen3-coder-8b",
+    "huggingface_repo": "Qwen/Qwen3-Coder-8B-GGUF",
+    "release_date": "2025-07",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 9,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/qwen3-coder-8b.html"
+    }
+  },
+  {
+    "id": "qwen3-next-80b-a3b",
+    "source_id": "qwen3-next-80b-a3b",
+    "name": "Qwen 3 Next (80B/3B MoE)",
+    "type": "local_llm",
+    "family": "qwen-moe",
+    "parameters": "80B (3B active)",
+    "size_gb": 48,
+    "min_ram_gb": 64,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "quality"
+    ],
+    "description": "Alibaba's next-gen MoE with hybrid-gated DeltaNet attention. Only 3B active params — runs at dense 7B speed with 70B quality. 256K native context (extensible to 1M). Hybrid thinking mode. Apache 2.0.",
+    "lm_studio_search_term": "qwen3-next-80b-a3b",
+    "huggingface_repo": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+    "release_date": "2025-09",
+    "scores": {
+      "speed": 8,
+      "quality": 9,
+      "coding": 9,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/qwen3-next-80b-a3b.html"
+    }
+  },
+  {
+    "id": "qwen3-vl-32b",
+    "source_id": "qwen3-vl-32b",
+    "name": "Qwen 3 VL (32B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "32B",
+    "size_gb": 19,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "vision",
+      "chat",
+      "multimodal",
+      "power",
+      "quality"
+    ],
+    "description": "Qwen 3 VL flagship open vision model. Competes with GPT-4o on MMMU, chart-QA and document reasoning. Native video understanding up to 1 hour. Apache 2.0.",
+    "lm_studio_search_term": "qwen3-vl-32b-instruct",
+    "huggingface_repo": "Qwen/Qwen3-VL-32B-Instruct-GGUF",
+    "release_date": "2025-12",
+    "scores": {
+      "speed": 5,
+      "quality": 9,
+      "coding": 7,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/qwen3-vl-32b.html"
+    }
+  },
+  {
+    "id": "qwen3-vl-8b",
+    "source_id": "qwen3-vl-8b",
+    "name": "Qwen 3 VL (8B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "8B",
+    "size_gb": 5.2,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "vision",
+      "chat",
+      "multimodal",
+      "standard"
+    ],
+    "description": "Qwen 3 vision-language model. Strong OCR, document understanding, chart & UI reasoning. 128K context with native image+video inputs. Apache 2.0.",
+    "lm_studio_search_term": "qwen3-vl-8b-instruct",
+    "huggingface_repo": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+    "release_date": "2025-11",
+    "scores": {
+      "speed": 7,
+      "quality": 8,
+      "coding": 6,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/qwen3-vl-8b.html"
+    }
+  },
+  {
+    "id": "qwen3.5-0.8b",
+    "source_id": "qwen3.5-0.8b",
+    "name": "Qwen 3.5 (0.8B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "0.8B",
+    "size_gb": 0.6,
+    "min_ram_gb": 2,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "edge",
+      "speed"
+    ],
+    "description": "The tiniest Qwen 3.5 — runs on any device including smartphones and Raspberry Pi. Hybrid thinking mode, 256K context, Apache 2.0. Perfect for on-device AI and embedded apps.",
+    "lm_studio_search_term": "qwen3.5-0.8b",
+    "huggingface_repo": "unsloth/Qwen3.5-0.8B-GGUF",
+    "release_date": "2026-03",
+    "scores": {
+      "speed": 10,
+      "quality": 4,
+      "coding": 4,
+      "reasoning": 3
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/qwen3.5-0.8b.html"
+    }
+  },
+  {
+    "id": "qwen3.5-122b-a10b",
+    "source_id": "qwen3.5-122b-a10b",
+    "name": "Qwen 3.5 MoE (122B/10B active)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "122B (10B active)",
+    "size_gb": 65,
+    "min_ram_gb": 80,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality",
+      "power"
+    ],
+    "description": "Large MoE model with only 10B active params. 60% cheaper to run than Qwen3-Max. 256K context. Top-tier reasoning, coding and multilingual. Hybrid think/non-think. Apache 2.0.",
+    "lm_studio_search_term": "qwen3.5-122b-a10b",
+    "huggingface_repo": "lmstudio-community/Qwen3.5-122B-A10B-GGUF",
+    "release_date": "2025-08",
+    "scores": {
+      "speed": 4,
+      "quality": 10,
+      "coding": 9,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "high-memory",
+      "page_url": "https://localclaw.io/models/qwen3.5-122b-a10b.html"
+    }
+  },
+  {
+    "id": "qwen3.5-27b",
+    "source_id": "qwen3.5-27b",
+    "name": "Qwen 3.5 (27B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "27B",
+    "size_gb": 17,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "general"
+    ],
+    "description": "Dense 27B powerhouse. Hybrid thinking/non-thinking mode. Strong multilingual (29+ languages). 256K context window. Excellent instruction-following and math. Apache 2.0.",
+    "lm_studio_search_term": "qwen3.5-27b",
+    "huggingface_repo": "unsloth/Qwen3.5-27B-GGUF",
+    "release_date": "2025-08",
+    "scores": {
+      "speed": 5,
+      "quality": 9,
+      "coding": 8,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/qwen3.5-27b.html"
+    }
+  },
+  {
+    "id": "qwen3.5-2b",
+    "source_id": "qwen3.5-2b",
+    "name": "Qwen 3.5 (2B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "2B",
+    "size_gb": 1.5,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "edge",
+      "speed"
+    ],
+    "description": "Ultra-compact Qwen 3.5 with hybrid thinking mode and 256K context. Runs comfortably on 4 GB RAM — ideal for MacBook Air M1/M2, Windows laptops, and edge devices. Apache 2.0.",
+    "lm_studio_search_term": "qwen3.5-2b",
+    "huggingface_repo": "unsloth/Qwen3.5-2B-GGUF",
+    "release_date": "2026-03",
+    "scores": {
+      "speed": 10,
+      "quality": 5,
+      "coding": 5,
+      "reasoning": 4
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/qwen3.5-2b.html"
+    }
+  },
+  {
+    "id": "qwen3.5-35b-a3b",
+    "source_id": "qwen3.5-35b-a3b",
+    "name": "Qwen 3.5 MoE (35B/3B active)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "35B (3B active)",
+    "size_gb": 20,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "speed"
+    ],
+    "description": "MoE gem — only 3B params active at inference. 19x faster than Qwen3-Max at 256K context. Best quality-per-watt of the series. Hybrid thinking mode. Runs on Mac Studio 32GB. Agentic coding standout.",
+    "lm_studio_search_term": "qwen3.5-35b-a3b",
+    "huggingface_repo": "bartowski/Qwen_Qwen3.5-35B-A3B-GGUF",
+    "release_date": "2025-08",
+    "scores": {
+      "speed": 9,
+      "quality": 8,
+      "coding": 9,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/qwen3.5-35b-a3b.html"
+    }
+  },
+  {
+    "id": "qwen3.5-397b-a17b",
+    "source_id": "qwen3.5-397b-a17b",
+    "name": "Qwen 3.5 MoE (397B/17B active)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "397B (17B active)",
+    "size_gb": 200,
+    "min_ram_gb": 256,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality"
+    ],
+    "description": "Flagship open-source Qwen 3.5. Only 17B active params despite 397B total — world-class quality at MoE efficiency. Matches GPT-4o on major benchmarks. Requires multi-GPU or server-grade hardware. Apache 2.0.",
+    "lm_studio_search_term": "qwen3.5-397b-a17b",
+    "huggingface_repo": "Qwen/Qwen3.5-397B-A17B",
+    "release_date": "2025-08",
+    "scores": {
+      "speed": 2,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/qwen3.5-397b-a17b.html"
+    }
+  },
+  {
+    "id": "qwen3.5-4b",
+    "source_id": "qwen3.5-4b",
+    "name": "Qwen 3.5 (4B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "4B",
+    "size_gb": 3,
+    "min_ram_gb": 6,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "speed",
+      "general"
+    ],
+    "description": "Sweet-spot small model. Surprisingly capable for its size with hybrid thinking, 256K context and strong multilingual support. Runs on 8 GB RAM. The go-to for MacBook Air M4 16 GB. Apache 2.0.",
+    "lm_studio_search_term": "qwen3.5-4b",
+    "huggingface_repo": "unsloth/Qwen3.5-4B-GGUF",
+    "release_date": "2026-03",
+    "scores": {
+      "speed": 9,
+      "quality": 6,
+      "coding": 6,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/qwen3.5-4b.html"
+    }
+  },
+  {
+    "id": "qwen3.5-9b",
+    "source_id": "qwen3.5-9b",
+    "name": "Qwen 3.5 (9B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "9B",
+    "size_gb": 6,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "general"
+    ],
+    "description": "The best small Qwen 3.5 for everyday use. Strong reasoning, coding and chat at 9B scale with hybrid thinking mode and 256K context. Runs on 8-16 GB RAM. Great for Mac Mini M4 Pro. Apache 2.0.",
+    "lm_studio_search_term": "qwen3.5-9b",
+    "huggingface_repo": "unsloth/Qwen3.5-9B-GGUF",
+    "release_date": "2026-03",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/qwen3.5-9b.html"
+    }
+  },
+  {
+    "id": "qwen3.6-27b",
+    "source_id": "qwen3.6-27b",
+    "name": "Qwen 3.6 (27B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "27B",
+    "size_gb": 17,
+    "min_ram_gb": 32,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "quality"
+    ],
+    "description": "Qwen 3.6 flagship dense model. Hybrid thinking mode with /think toggle for deep chain-of-thought reasoning. 128K context, 29+ languages. Significantly outperforms Qwen3.5-27B on reasoning, coding & math. Apache 2.0.",
+    "lm_studio_search_term": "qwen3.6-27b",
+    "huggingface_repo": "Qwen/Qwen3.6-27B",
+    "release_date": "2026-04",
+    "scores": {
+      "speed": 5,
+      "quality": 9,
+      "coding": 9,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/qwen3.6-27b.html"
+    }
+  },
+  {
+    "id": "qwen3.6-6.7b",
+    "source_id": "qwen3.6-6.7b",
+    "name": "Qwen 3.6 (6.7B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "6.7B",
+    "size_gb": 4.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "speed",
+      "general"
+    ],
+    "description": "Alibaba's hybrid-thinking micro-flagship. Toggles between instant answers and deep chain-of-thought reasoning on demand. 128K context, 29 languages, outperforms Qwen3-8B on reasoning benchmarks. Apache 2.0.",
+    "lm_studio_search_term": "qwen3.6-6.7b",
+    "huggingface_repo": "lmstudio-community/Qwen3.6-6.7B-GGUF",
+    "release_date": "2026-04",
+    "scores": {
+      "speed": 9,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/qwen3.6-6.7b.html"
+    }
+  },
+  {
+    "id": "qwen3.7-max-preview",
+    "source_id": "qwen3.7-max-preview",
+    "name": "Qwen 3.7 Max Preview",
+    "type": "hosted_llm_reference",
+    "family": "qwen",
+    "parameters": "Undisclosed frontier model",
+    "size_gb": 0,
+    "min_ram_gb": 1024,
+    "recommended_quantization": "API",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "quality",
+      "api"
+    ],
+    "description": "Alibaba Cloud flagship preview announced in May 2026. Built for agentic coding, complex reasoning and long-horizon task execution. Proprietary/API-only for now — not an open-weight GGUF model for local LM Studio use.",
+    "lm_studio_search_term": "qwen3.7-max-preview",
+    "huggingface_repo": null,
+    "release_date": "2026-05",
+    "scores": {
+      "speed": 4,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "server-class",
+      "page_url": "https://localclaw.io/models/qwen3.7-max-preview.html"
+    }
+  },
+  {
+    "id": "qwq-32b",
+    "source_id": "qwq-32b",
+    "name": "QwQ (32B)",
+    "type": "local_llm",
+    "family": "qwen",
+    "parameters": "32B",
+    "size_gb": 19,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "power"
+    ],
+    "description": "Early Qwen reasoning model. Superseded by GLM-4 32B and Qwen 3 32B for most tasks. Still decent for pure math.",
+    "lm_studio_search_term": "qwq-32b-preview",
+    "huggingface_repo": "lmstudio-community/QwQ-32B-Preview-GGUF",
+    "release_date": "2024-11",
+    "scores": {
+      "speed": 4,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/qwq-32b.html"
+    }
+  },
+  {
+    "id": "r1-1776-14b",
+    "source_id": "r1-1776-14b",
+    "name": "R1-1776 (14B)",
+    "type": "local_llm",
+    "family": "r1-1776",
+    "parameters": "14B",
+    "size_gb": 8.5,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "reasoning",
+      "power"
+    ],
+    "description": "Perplexity unbiased DeepSeek R1. Debiased reasoning model. 115K downloads.",
+    "lm_studio_search_term": "r1-1776-14b",
+    "huggingface_repo": "perplexity-ai/r1-1776-GGUF",
+    "release_date": "2025-02",
+    "scores": {
+      "speed": 6,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/r1-1776-14b.html"
+    }
+  },
+  {
+    "id": "reader-lm-1.5b",
+    "source_id": "reader-lm-1.5b",
+    "name": "Reader LM (1.5B)",
+    "type": "local_llm",
+    "family": "reader-lm",
+    "parameters": "1.5B",
+    "size_gb": 1,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q8_0",
+    "tags": [
+      "light",
+      "speed"
+    ],
+    "description": "HTML to Markdown converter. Specialized utility model for web scraping. 65K downloads.",
+    "lm_studio_search_term": "reader-lm-1.5b",
+    "huggingface_repo": "jinaai/reader-lm-1.5b-GGUF",
+    "release_date": "2024-09",
+    "scores": {
+      "speed": 10,
+      "quality": 5,
+      "coding": 3,
+      "reasoning": 3
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/reader-lm-1.5b.html"
+    }
+  },
+  {
+    "id": "sailor2-8b",
+    "source_id": "sailor2-8b",
+    "name": "Sailor 2 (8B)",
+    "type": "local_llm",
+    "family": "sailor",
+    "parameters": "8B",
+    "size_gb": 5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "standard",
+      "general"
+    ],
+    "description": "Southeast Asian multilingual specialist. Thai, Vietnamese, Indonesian, etc. 35K downloads.",
+    "lm_studio_search_term": "sailor2-8b-chat",
+    "huggingface_repo": "sail/Sailor2-8B-Chat-GGUF",
+    "release_date": "2024-12",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 5,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/sailor2-8b.html"
+    }
+  },
+  {
+    "id": "smallthinker-3b",
+    "source_id": "smallthinker-3b",
+    "name": "SmallThinker (3B)",
+    "type": "local_llm",
+    "family": "smallthinker",
+    "parameters": "3B",
+    "size_gb": 1.8,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "reasoning",
+      "light",
+      "speed"
+    ],
+    "description": "Small reasoning model on Qwen 2.5 3B. Thinking at a tiny size. 83K downloads.",
+    "lm_studio_search_term": "smallthinker-3b-preview",
+    "huggingface_repo": "PowerInfer/SmallThinker-3B-Preview-GGUF",
+    "release_date": "2025-01",
+    "scores": {
+      "speed": 9,
+      "quality": 5,
+      "coding": 4,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/smallthinker-3b.html"
+    }
+  },
+  {
+    "id": "smollm2-1.7b",
+    "source_id": "smollm2-1.7b",
+    "name": "SmolLM 2 (1.7B)",
+    "type": "local_llm",
+    "family": "smollm",
+    "parameters": "1.7B",
+    "size_gb": 1,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q8_0",
+    "tags": [
+      "chat",
+      "light",
+      "speed"
+    ],
+    "description": "Ultra-compact HuggingFace model. Surprisingly capable for its tiny size. 1.9M downloads.",
+    "lm_studio_search_term": "smollm2-1.7b-instruct",
+    "huggingface_repo": "HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF",
+    "release_date": "2024-11",
+    "scores": {
+      "speed": 10,
+      "quality": 4,
+      "coding": 3,
+      "reasoning": 3
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/smollm2-1.7b.html"
+    }
+  },
+  {
+    "id": "solar-pro-22b",
+    "source_id": "solar-pro-22b",
+    "name": "Solar Pro (22B)",
+    "type": "local_llm",
+    "family": "solar",
+    "parameters": "22B",
+    "size_gb": 13,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "general",
+      "power"
+    ],
+    "description": "22B single-GPU advanced LLM. Compact but powerful. 50K downloads.",
+    "lm_studio_search_term": "solar-pro-22b",
+    "huggingface_repo": "upstage/solar-pro-preview-instruct-GGUF",
+    "release_date": "2024-09",
+    "scores": {
+      "speed": 5,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/solar-pro-22b.html"
+    }
+  },
+  {
+    "id": "sqlcoder-15b",
+    "source_id": "sqlcoder-15b",
+    "name": "SQLCoder (15B)",
+    "type": "local_llm",
+    "family": "sqlcoder",
+    "parameters": "15B",
+    "size_gb": 9,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "code",
+      "power"
+    ],
+    "description": "Specialized text-to-SQL model. Generates SQL queries from natural language. 135K downloads.",
+    "lm_studio_search_term": "sqlcoder-15b",
+    "huggingface_repo": "defog/sqlcoder-15b-GGUF",
+    "release_date": "2024-01",
+    "scores": {
+      "speed": 6,
+      "quality": 6,
+      "coding": 8,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/sqlcoder-15b.html"
+    }
+  },
+  {
+    "id": "starcoder2-15b",
+    "source_id": "starcoder2-15b",
+    "name": "StarCoder 2 (15B)",
+    "type": "local_llm",
+    "family": "starcoder",
+    "parameters": "15B",
+    "size_gb": 9,
+    "min_ram_gb": 12,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "code",
+      "power"
+    ],
+    "description": "Transparent open code LLM. 600+ languages. Trained on The Stack v2. 1.3M downloads.",
+    "lm_studio_search_term": "starcoder2-15b",
+    "huggingface_repo": "bartowski/starcoder2-15b-GGUF",
+    "release_date": "2024-02",
+    "scores": {
+      "speed": 6,
+      "quality": 6,
+      "coding": 8,
+      "reasoning": 5
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/starcoder2-15b.html"
+    }
+  },
+  {
+    "id": "step3.5-flash",
+    "source_id": "step3.5-flash",
+    "name": "Step 3.5 Flash",
+    "type": "local_llm",
+    "family": "step",
+    "parameters": "14B",
+    "size_gb": 9.5,
+    "min_ram_gb": 16,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "speed"
+    ],
+    "description": "StepFun's fast and free model. Exceptional speed-to-quality ratio. Popular in Asian markets. Ranks #9 on global usage leaderboards with 18.7B monthly tokens.",
+    "lm_studio_search_term": "step-3.5-flash",
+    "huggingface_repo": "stepfun-ai/Step-3.5-Flash-GGUF",
+    "release_date": "2025-11",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 7,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "mainstream",
+      "page_url": "https://localclaw.io/models/step3.5-flash.html"
+    }
+  },
+  {
+    "id": "tinyllama-1.1b",
+    "source_id": "tinyllama-1.1b",
+    "name": "TinyLlama (1.1B)",
+    "type": "local_llm",
+    "family": "tinyllama",
+    "parameters": "1.1B",
+    "size_gb": 0.6,
+    "min_ram_gb": 4,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "light",
+      "speed"
+    ],
+    "description": "Compact 1.1B trained on 3T tokens. Great for ultra-low resource environments. 3M downloads.",
+    "lm_studio_search_term": "tinyllama-1.1b-chat",
+    "huggingface_repo": "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",
+    "release_date": "2024-01",
+    "scores": {
+      "speed": 10,
+      "quality": 3,
+      "coding": 2,
+      "reasoning": 2
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/tinyllama-1.1b.html"
+    }
+  },
+  {
+    "id": "trinity-large",
+    "source_id": "trinity-large",
+    "name": "Trinity Large Preview (70B MoE)",
+    "type": "local_llm",
+    "family": "trinity",
+    "parameters": "70B (MoE, ~400B total)",
+    "size_gb": 45,
+    "min_ram_gb": 48,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "Arcee AI's massive MoE open model. ~400B total parameters, 70B active per forward pass. Ranks near the top of global usage leaderboards. Exceptional versatility across reasoning, coding and chat. Free and open-source. Apache 2.0.",
+    "lm_studio_search_term": "trinity-large-preview",
+    "huggingface_repo": "arcee-ai/Trinity-Large-Preview-GGUF",
+    "release_date": "2025-12",
+    "scores": {
+      "speed": 3,
+      "quality": 10,
+      "coding": 10,
+      "reasoning": 10
+    },
+    "localclaw": {
+      "fit_tier": "workstation",
+      "page_url": "https://localclaw.io/models/trinity-large.html"
+    }
+  },
+  {
+    "id": "tulu3-8b",
+    "source_id": "tulu3-8b",
+    "name": "Tulu 3 (8B)",
+    "type": "local_llm",
+    "family": "tulu",
+    "parameters": "8B",
+    "size_gb": 4.7,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "standard",
+      "general"
+    ],
+    "description": "Allen AI fully open instruction model. Weights, data, code all public. 106K downloads.",
+    "lm_studio_search_term": "tulu-3-8b",
+    "huggingface_repo": "allenai/Tulu-3-8B-GGUF",
+    "release_date": "2024-11",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 6,
+      "reasoning": 7
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/tulu3-8b.html"
+    }
+  },
+  {
+    "id": "wizardlm2-8x22b",
+    "source_id": "wizardlm2-8x22b",
+    "name": "WizardLM 2 (8x22B)",
+    "type": "local_llm",
+    "family": "wizardlm",
+    "parameters": "8x22B (141B total)",
+    "size_gb": 88,
+    "min_ram_gb": 96,
+    "recommended_quantization": "Q4_K_M",
+    "tags": [
+      "chat",
+      "code",
+      "power",
+      "quality",
+      "general"
+    ],
+    "description": "Microsoft AI's ultra-popular fine-tune of Mixtral 8x22B. Apache 2.0 license. Exceptional instruction following and conversational quality.",
+    "lm_studio_search_term": "wizardlm-2-8x22b",
+    "huggingface_repo": "lmstudio-community/WizardLM-2-8x22B-GGUF",
+    "release_date": "2024-04",
+    "scores": {
+      "speed": 3,
+      "quality": 10,
+      "coding": 9,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "high-memory",
+      "page_url": "https://localclaw.io/models/wizardlm2-8x22b.html"
+    }
+  },
+  {
+    "id": "yi-34b",
+    "source_id": "yi-34b",
+    "name": "Yi 1.5 (34B)",
+    "type": "local_llm",
+    "family": "yi",
+    "parameters": "34B",
+    "size_gb": 20,
+    "min_ram_gb": 24,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "general",
+      "power"
+    ],
+    "description": "High-performing bilingual (EN/CN) model. Strong at general tasks. 305K downloads.",
+    "lm_studio_search_term": "yi-1.5-34b-chat",
+    "huggingface_repo": "TheBloke/Yi-1.5-34B-Chat-GGUF",
+    "release_date": "2024-05",
+    "scores": {
+      "speed": 4,
+      "quality": 8,
+      "coding": 7,
+      "reasoning": 8
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/yi-34b.html"
+    }
+  },
+  {
+    "id": "yi-coder-9b",
+    "source_id": "yi-coder-9b",
+    "name": "Yi Coder (9B)",
+    "type": "local_llm",
+    "family": "yi",
+    "parameters": "9B",
+    "size_gb": 5.5,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "code",
+      "standard"
+    ],
+    "description": "Yi code specialist under 10B. Strong coding performance for its size. 132K downloads.",
+    "lm_studio_search_term": "yi-coder-9b-chat",
+    "huggingface_repo": "01-ai/Yi-Coder-9B-Chat-GGUF",
+    "release_date": "2024-09",
+    "scores": {
+      "speed": 7,
+      "quality": 6,
+      "coding": 8,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/yi-coder-9b.html"
+    }
+  },
+  {
+    "id": "zaya1-8b",
+    "source_id": "zaya1-8b",
+    "name": "ZAYA1-8B",
+    "type": "local_llm",
+    "family": "zaya",
+    "parameters": "8.4B (760M active, MoE)",
+    "size_gb": 17,
+    "min_ram_gb": 24,
+    "recommended_quantization": "BF16 (Zyphra fork)",
+    "tags": [
+      "chat",
+      "code",
+      "reasoning",
+      "math",
+      "experimental"
+    ],
+    "description": "Zyphra's Apache-2.0 reasoning MoE: 8.4B total parameters with only ~760M active, 16 experts, 131K context, Compressed Convolutional Attention and strong math/code benchmarks. Experimental for local use today: currently needs Zyphra vLLM/Transformers forks; LM Studio/GGUF/MLX support is not yet verified.",
+    "lm_studio_search_term": "Zyphra/ZAYA1-8B",
+    "huggingface_repo": "Zyphra/ZAYA1-8B",
+    "release_date": "2026-05",
+    "scores": {
+      "speed": 7,
+      "quality": 8,
+      "coding": 8,
+      "reasoning": 9
+    },
+    "localclaw": {
+      "fit_tier": "power-user",
+      "page_url": "https://localclaw.io/models/zaya1-8b.html"
+    }
+  },
+  {
+    "id": "zephyr-7b",
+    "source_id": "zephyr-7b",
+    "name": "Zephyr (7B)",
+    "type": "local_llm",
+    "family": "zephyr",
+    "parameters": "7B",
+    "size_gb": 4.1,
+    "min_ram_gb": 8,
+    "recommended_quantization": "Q5_K_M",
+    "tags": [
+      "chat",
+      "standard",
+      "general"
+    ],
+    "description": "Fine-tuned Mistral as helpful assistant. DPO-aligned for safety. 291K downloads.",
+    "lm_studio_search_term": "zephyr-7b-beta",
+    "huggingface_repo": "TheBloke/zephyr-7B-beta-GGUF",
+    "release_date": "2023-11",
+    "scores": {
+      "speed": 8,
+      "quality": 7,
+      "coding": 5,
+      "reasoning": 6
+    },
+    "localclaw": {
+      "fit_tier": "entry",
+      "page_url": "https://localclaw.io/models/zephyr-7b.html"
+    }
+  }
+]

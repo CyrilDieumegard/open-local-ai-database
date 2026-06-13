@@ -1,0 +1,35 @@
+name: Add or fix a speech model
+description: Suggest a new TTS, ASR or speech model correction.
+title: "Speech model: "
+labels: ["speech", "data"]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Model name
+      placeholder: "MisoTTS"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary source URL
+      placeholder: "https://github.com/..."
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - TTS
+        - ASR
+        - Voice cloning
+        - Speech pipeline
+        - Other
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change?
+    validations:
+      required: true

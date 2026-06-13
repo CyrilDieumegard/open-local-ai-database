@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: Open Local AI Database
+message: If you use this dataset, please cite it as below.
+type: dataset
+authors:
+  - family-names: Dieumegard
+    given-names: Cyril
+url: https://localclaw.io/
+repository-code: https://github.com/CyrilDieumegard/open-local-ai-database
+abstract: Practical local AI model, speech model and hardware compatibility metadata maintained by LocalClaw.
+license: CC-BY-4.0
+keywords:
+  - local AI
+  - LLM
+  - TTS
+  - ASR
+  - Apple Silicon
+  - NVIDIA
+  - LM Studio
+  - OpenClaw

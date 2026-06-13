@@ -1,0 +1,242 @@
+[
+  {
+    "id": "acer_veriton_gn100",
+    "name": "Acer Veriton GN100",
+    "vendor": "NVIDIA partner",
+    "platform": "nvidia",
+    "chip": "NVIDIA GB10",
+    "unified_memory_gb": 128,
+    "storage": "4TB NVMe",
+    "price_text": "Check price",
+    "badge": "AI Mini Workstation",
+    "official_url": null,
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=Acer+Veriton+GN100+NVIDIA+GB10",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "asus_ascent_gx10",
+    "name": "ASUS Ascent GX10",
+    "vendor": "NVIDIA partner",
+    "platform": "nvidia",
+    "chip": "NVIDIA GB10",
+    "unified_memory_gb": 128,
+    "storage": "1TB / 4TB NVMe",
+    "price_text": "Check price",
+    "badge": "DGX Spark Partner",
+    "official_url": null,
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=ASUS+Ascent+GX10+NVIDIA+GB10",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "dell_pro_max_gb10",
+    "name": "Dell Pro Max with GB10",
+    "vendor": "NVIDIA partner",
+    "platform": "nvidia",
+    "chip": "NVIDIA GB10",
+    "unified_memory_gb": 128,
+    "storage": "4TB NVMe",
+    "price_text": "Check price",
+    "badge": "Dell GB10 Workstation",
+    "official_url": null,
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=Dell+Pro+Max+GB10",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "hp_zgx_nano",
+    "name": "HP ZGX Nano G1n",
+    "vendor": "NVIDIA partner",
+    "platform": "nvidia",
+    "chip": "NVIDIA GB10",
+    "unified_memory_gb": 128,
+    "storage": "4TB NVMe",
+    "price_text": "Check price",
+    "badge": "HP AI Station",
+    "official_url": null,
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=HP+ZGX+Nano+G1n+AI+Station",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "lenovo_thinkstation_pgx",
+    "name": "Lenovo ThinkStation PGX",
+    "vendor": "NVIDIA partner",
+    "platform": "nvidia",
+    "chip": "NVIDIA GB10",
+    "unified_memory_gb": 128,
+    "storage": "up to 4TB NVMe",
+    "price_text": "Check price",
+    "badge": "ThinkStation AI",
+    "official_url": null,
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=Lenovo+ThinkStation+PGX+GB10",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "mac_mini_16",
+    "name": "Apple Mac Mini M4",
+    "vendor": "Apple",
+    "platform": "apple",
+    "chip": "M4",
+    "unified_memory_gb": 16,
+    "storage": "256GB SSD",
+    "price_text": "$499",
+    "badge": "Best Starter Mac",
+    "official_url": null,
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=Apple+Mac+mini+M4+16GB+256GB",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "mac_mini_24",
+    "name": "Mac Mini M4 Pro",
+    "vendor": "Apple",
+    "platform": "apple",
+    "chip": "M4 Pro",
+    "unified_memory_gb": 24,
+    "storage": "512GB SSD",
+    "price_text": "$1,399",
+    "badge": "Sweet Spot",
+    "official_url": null,
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=Apple+Mac+mini+M4+Pro+24GB+512GB",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "mac_mini_48",
+    "name": "Mac Mini M4 Pro",
+    "vendor": "Apple",
+    "platform": "apple",
+    "chip": "M4 Pro",
+    "unified_memory_gb": 48,
+    "storage": "512GB SSD",
+    "price_text": "$1,799",
+    "badge": "Power User",
+    "official_url": null,
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=Apple+Mac+mini+M4+Pro+48GB+512GB",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "mac_studio_128",
+    "name": "Mac Studio M3 Ultra",
+    "vendor": "Apple",
+    "platform": "apple",
+    "chip": "M3 Ultra",
+    "unified_memory_gb": 128,
+    "storage": "1TB SSD",
+    "price_text": "Check price",
+    "badge": "Beast Mode",
+    "official_url": "https://www.apple.com/mac-studio/",
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=Apple+Mac+Studio+M3+Ultra+128GB+1TB",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "mac_studio_256",
+    "name": "Mac Studio M3 Ultra",
+    "vendor": "Apple",
+    "platform": "apple",
+    "chip": "M3 Ultra",
+    "unified_memory_gb": 256,
+    "storage": "2TB SSD",
+    "price_text": "Check price",
+    "badge": "Monster",
+    "official_url": "https://www.apple.com/mac-studio/",
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=Apple+Mac+Studio+M3+Ultra+256GB+2TB",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "mac_studio_512",
+    "name": "Mac Studio M3 Ultra",
+    "vendor": "Apple",
+    "platform": "apple",
+    "chip": "M3 Ultra",
+    "unified_memory_gb": 512,
+    "storage": "4TB SSD",
+    "price_text": "Check price",
+    "badge": "Ultimate Beast",
+    "official_url": "https://www.apple.com/mac-studio/",
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=Apple+Mac+Studio+M3+Ultra+512GB+4TB",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "mac_studio_64",
+    "name": "Mac Studio M4 Max",
+    "vendor": "Apple",
+    "platform": "apple",
+    "chip": "M4 Max",
+    "unified_memory_gb": 64,
+    "storage": "1TB SSD",
+    "price_text": "$3,199",
+    "badge": "Workstation",
+    "official_url": "https://www.apple.com/mac-studio/",
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=Apple+Mac+Studio+M4+Max+64GB+1TB",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "mac_studio_max_128",
+    "name": "Mac Studio M4 Max",
+    "vendor": "Apple",
+    "platform": "apple",
+    "chip": "M4 Max",
+    "unified_memory_gb": 128,
+    "storage": "2TB SSD",
+    "price_text": "$4,599",
+    "badge": "Max Power",
+    "official_url": "https://www.apple.com/mac-studio/",
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=Apple+Mac+Studio+M4+Max+128GB+2TB",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "msi_edgexpert",
+    "name": "MSI EdgeXpert",
+    "vendor": "NVIDIA partner",
+    "platform": "nvidia",
+    "chip": "NVIDIA GB10",
+    "unified_memory_gb": 128,
+    "storage": "1TB / 4TB NVMe",
+    "price_text": "Check price",
+    "badge": "Edge AI Lab",
+    "official_url": null,
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=MSI+EdgeXpert+AI+Supercomputer+GB10",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  },
+  {
+    "id": "nvidia_dgx_spark",
+    "name": "NVIDIA DGX Spark",
+    "vendor": "NVIDIA partner",
+    "platform": "nvidia",
+    "chip": "GB10 Grace Blackwell",
+    "unified_memory_gb": 128,
+    "storage": "4TB NVMe",
+    "price_text": "$4,699",
+    "badge": "Desktop AI Supercomputer",
+    "official_url": null,
+    "retail_search_url_no_affiliate": "https://www.amazon.com/s?k=NVIDIA+DGX+Spark",
+    "localclaw": {
+      "computers_url": "https://localclaw.io/computers.html"
+    }
+  }
+]

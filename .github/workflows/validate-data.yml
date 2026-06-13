@@ -1,0 +1,19 @@
+name: Validate data
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm run validate
+      - run: node examples/js/top-16gb-llms.js
+      - run: python3 examples/python/best_coding_models.py

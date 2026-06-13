@@ -1,0 +1,31 @@
+name: Add or fix a local LLM
+description: Suggest a new local LLM or correct existing LLM metadata.
+title: "LLM: "
+labels: ["llm", "data"]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Model name
+      placeholder: "Qwen 3.x 27B"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary source URL
+      placeholder: "https://huggingface.co/..."
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change?
+      description: Include RAM, quantization, license, release date or install metadata if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Any local runtime notes, LM Studio/Ollama support or hardware fit details.

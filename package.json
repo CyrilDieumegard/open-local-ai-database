@@ -1,0 +1,24 @@
+{
+  "name": "open-local-ai-database",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Open local AI model, speech model and hardware compatibility database maintained by LocalClaw.",
+  "license": "CC-BY-4.0",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node scripts/build-data.js",
+    "validate": "node scripts/validate-data.js",
+    "check": "npm run build && npm run validate"
+  },
+  "keywords": [
+    "local-ai",
+    "llm",
+    "tts",
+    "asr",
+    "lm-studio",
+    "ollama",
+    "apple-silicon",
+    "nvidia",
+    "open-data"
+  ]
+}

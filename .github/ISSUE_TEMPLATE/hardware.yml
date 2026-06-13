@@ -1,0 +1,26 @@
+name: Add or fix hardware metadata
+description: Suggest a local AI machine or hardware compatibility correction.
+title: "Hardware: "
+labels: ["hardware", "data"]
+body:
+  - type: input
+    id: machine
+    attributes:
+      label: Machine name
+      placeholder: "Mac mini M4 Pro 48GB"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      placeholder: "https://www.apple.com/..."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Hardware notes
+      description: RAM, storage, chip, local model fit or correction details.
+    validations:
+      required: true

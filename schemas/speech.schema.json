@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://localclaw.io/schemas/speech.schema.json",
+  "title": "Open Local AI Database Speech Record",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "type",
+    "description",
+    "languages",
+    "features",
+    "hardware",
+    "localclaw"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "type": { "type": "string", "enum": ["tts", "asr_or_speech"] },
+    "developer": { "type": ["string", "null"] },
+    "family": { "type": ["string", "null"] },
+    "description": { "type": "string" },
+    "languages": { "type": "array", "items": { "type": "string" } },
+    "language_count": { "type": "number" },
+    "features": { "type": "array", "items": { "type": "string" } },
+    "hardware": { "type": "array", "items": { "type": "string" } },
+    "size_gb": { "type": "number" },
+    "size_category": { "type": ["string", "null"] },
+    "quality_score": { "type": ["number", "null"] },
+    "speed_score": { "type": ["number", "null"] },
+    "latency": { "type": ["string", "null"] },
+    "release_date": { "type": ["string", "null"] },
+    "is_new": { "type": "boolean" },
+    "is_localclaw_pick": { "type": "boolean" },
+    "huggingface_url": { "type": ["string", "null"] },
+    "install_command": { "type": ["string", "null"] },
+    "supported_formats": { "type": "array", "items": { "type": "string" } },
+    "voices": { "type": ["string", "null"] },
+    "context": { "type": ["string", "null"] },
+    "license": { "type": ["string", "null"] },
+    "localclaw": {
+      "type": "object",
+      "required": ["page_url"],
+      "properties": {
+        "page_url": { "type": "string", "format": "uri" }
+      }
+    }
+  }
+}

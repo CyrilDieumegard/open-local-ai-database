@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://localclaw.io/schemas/llm.schema.json",
+  "title": "Open Local AI Database LLM Record",
+  "type": "object",
+  "required": [
+    "id",
+    "source_id",
+    "name",
+    "type",
+    "family",
+    "parameters",
+    "size_gb",
+    "min_ram_gb",
+    "tags",
+    "description",
+    "scores",
+    "localclaw"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "source_id": { "type": "string" },
+    "duplicate_group": { "type": "string" },
+    "duplicate_index": { "type": "number" },
+    "name": { "type": "string" },
+    "type": { "type": "string", "enum": ["local_llm", "hosted_llm_reference"] },
+    "family": { "type": "string" },
+    "parameters": { "type": ["string", "null"] },
+    "size_gb": { "type": "number" },
+    "min_ram_gb": { "type": "number" },
+    "recommended_quantization": { "type": ["string", "null"] },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "description": { "type": "string" },
+    "lm_studio_search_term": { "type": ["string", "null"] },
+    "huggingface_repo": { "type": ["string", "null"] },
+    "release_date": { "type": ["string", "null"] },
+    "scores": {
+      "type": "object",
+      "required": ["speed", "quality", "coding", "reasoning"],
+      "properties": {
+        "speed": { "type": ["number", "null"] },
+        "quality": { "type": ["number", "null"] },
+        "coding": { "type": ["number", "null"] },
+        "reasoning": { "type": ["number", "null"] }
+      }
+    },
+    "localclaw": {
+      "type": "object",
+      "required": ["fit_tier", "page_url"],
+      "properties": {
+        "fit_tier": { "type": "string" },
+        "page_url": { "type": "string", "format": "uri" }
+      }
+    }
+  }
+}
