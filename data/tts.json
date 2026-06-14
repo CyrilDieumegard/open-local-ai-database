@@ -394,6 +394,72 @@
     }
   },
   {
+    "id": "dots-tts-mf",
+    "name": "Dots TTS MF",
+    "type": "tts",
+    "developer": "RedNote HiLab",
+    "family": "dots",
+    "description": "2B fully continuous end-to-end autoregressive TTS system with zero-shot voice cloning. The MF checkpoint distills dots.tts-soar with MeanFlow for few-step, low-latency inference at 48 kHz, while keeping strong speaker similarity and natural prosody. Apache 2.0.",
+    "languages": [
+      "en",
+      "zh",
+      "yue",
+      "ja",
+      "ko",
+      "fr",
+      "de",
+      "es",
+      "it",
+      "pt",
+      "nl",
+      "ru",
+      "uk",
+      "pl",
+      "cs",
+      "ro",
+      "el",
+      "fi",
+      "tr",
+      "ar",
+      "hi",
+      "vi",
+      "id",
+      "th"
+    ],
+    "language_count": 24,
+    "features": [
+      "cloning",
+      "multilingual",
+      "controllable",
+      "realtime"
+    ],
+    "hardware": [
+      "gpu",
+      "apple"
+    ],
+    "size_gb": 4.2,
+    "size_category": "large",
+    "quality_score": 9.4,
+    "speed_score": 8,
+    "latency": "low",
+    "release_date": "2026-06",
+    "is_new": true,
+    "is_localclaw_pick": true,
+    "huggingface_url": "https://huggingface.co/rednote-hilab/dots.tts-mf",
+    "install_command": "python -m pip install \"git+https://github.com/rednote-hilab/dots.tts.git\"",
+    "supported_formats": [
+      "pytorch",
+      "safetensors",
+      "mlx"
+    ],
+    "voices": "Zero-shot voice cloning from reference audio + transcript",
+    "context": "2B AR flow-matching TTS, 48 kHz AudioVAE, MeanFlow distilled, recommended NFE=4",
+    "license": "Apache 2.0",
+    "localclaw": {
+      "page_url": "https://localclaw.io/tts/dots-tts-mf.html"
+    }
+  },
+  {
     "id": "edge-tts",
     "name": "Edge TTS",
     "type": "tts",

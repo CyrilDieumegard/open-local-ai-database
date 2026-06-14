@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-13",
+  "generated_at": "2026-06-14",
   "source": "LocalClaw.io curated local AI metadata",
   "counts": {
-    "llms": 188,
+    "llms": 190,
     "llm_families": 65,
-    "speech_models": 57,
-    "speech_families": 52,
+    "speech_models": 58,
+    "speech_families": 53,
     "machines": 15
   },
   "links": {
