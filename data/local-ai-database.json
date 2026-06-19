@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-06-14",
+    "generated_at": "2026-06-19",
     "source": "LocalClaw.io curated local AI metadata",
     "counts": {
-      "llms": 190,
+      "llms": 191,
       "llm_families": 65,
       "speech_models": 58,
       "speech_families": 53,
@@ -1775,6 +1775,40 @@
       "localclaw": {
         "fit_tier": "server-class",
         "page_url": "https://localclaw.io/models/glm-5.1.html"
+      }
+    },
+    {
+      "id": "glm-5.2",
+      "source_id": "glm-5.2",
+      "name": "GLM-5.2 (744B MoE)",
+      "type": "local_llm",
+      "family": "glm",
+      "parameters": "744B (40B active)",
+      "size_gb": 239,
+      "min_ram_gb": 256,
+      "recommended_quantization": "UD-IQ2_M",
+      "tags": [
+        "chat",
+        "code",
+        "reasoning",
+        "quality",
+        "agentic",
+        "long-context",
+        "general"
+      ],
+      "description": "Z.ai flagship open model for long-horizon coding, reasoning and agentic work. 744B total, 40B active, 1M-token context, MIT license. Unsloth Dynamic GGUF makes it technically local, but it needs workstation/server-class memory: ~245GB total memory for 2-bit and 372GB+ for 4-bit.",
+      "lm_studio_search_term": "glm-5.2",
+      "huggingface_repo": "unsloth/GLM-5.2-GGUF",
+      "release_date": "2026-06",
+      "scores": {
+        "speed": 2,
+        "quality": 10,
+        "coding": 10,
+        "reasoning": 10
+      },
+      "localclaw": {
+        "fit_tier": "server-class",
+        "page_url": "https://localclaw.io/models/glm-5.2.html"
       }
     },
     {

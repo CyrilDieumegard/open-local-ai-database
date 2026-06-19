@@ -56,6 +56,7 @@ gemma4-e2b,gemma4-e2b,,,Gemma 4 E2B,local_llm,gemma,E2B,2.3,6,Q5_K_M,chat|vision
 gemma4-e4b,gemma4-e4b,,,Gemma 4 E4B,local_llm,gemma,E4B,4.6,8,Q4_K_M,chat|vision|standard|multimodal|reasoning|general,2026-03,8,7,6,7,gemma-4-e4b-it,google/gemma-4-E4B-it,https://localclaw.io/models/gemma4-e4b.html
 glm-4.6-355b,glm-4.6-355b,,,GLM 4.6 (355B MoE),local_llm,glm,355B (32B active),200,320,Q4_K_M,chat|code|reasoning|quality|general,2025-09,2,10,10,10,glm-4.6-355b,zai-org/GLM-4.6,https://localclaw.io/models/glm-4.6-355b.html
 glm-5.1,glm-5.1,,,GLM-5.1,local_llm,glm,754B MoE,430,640,Q4_K_M,chat|code|reasoning|quality|agentic|general,2026-05,2,10,10,10,glm-5.1,zai-org/GLM-5.1,https://localclaw.io/models/glm-5.1.html
+glm-5.2,glm-5.2,,,GLM-5.2 (744B MoE),local_llm,glm,744B (40B active),239,256,UD-IQ2_M,chat|code|reasoning|quality|agentic|long-context|general,2026-06,2,10,10,10,glm-5.2,unsloth/GLM-5.2-GGUF,https://localclaw.io/models/glm-5.2.html
 glm4-32b,glm4-32b,,,GLM-4 (32B),local_llm,glm,32B,20,32,Q4_K_M,chat|code|power|quality|general,2024-08,4,9,9,9,glm-4-32b-chat,THUDM/glm-4-32b-chat-GGUF,https://localclaw.io/models/glm4-32b.html
 glm4-9b,glm4-9b,,,GLM-4 (9B),local_llm,glm,9B,6,8,Q5_K_M,chat|code|standard|general,2024-06,8,7,7,7,glm-4-9b-chat,THUDM/glm-4-9b-chat-GGUF,https://localclaw.io/models/glm4-9b.html
 glm4.5-air,glm4.5-air,,,GLM 4.5 Air (MoE),local_llm,glm,"106B (14B active, MoE)",9,16,Q4_K_M,chat|code|power|quality|general,2025-07,7,9,9,9,glm-4.5-air,THUDM/GLM-4.5-Air-GGUF,https://localclaw.io/models/glm4.5-air.html
