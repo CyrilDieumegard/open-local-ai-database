@@ -4,7 +4,15 @@
 
 An open, practical database of local AI models, speech models and hardware compatibility metadata.
 
-Maintained by **Cyril Dieumegard** and powered by [LocalClaw](https://localclaw.io/), a native macOS control center for OpenClaw and local AI workflows.
+Published by **Cyril Dieumegard** and [LocalClaw](https://localclaw.io/).
+
+**Snapshot date: June 19, 2026.** This release contains historical metadata. It is not the current LocalClaw catalogue, and model availability, licences and hardware estimates must be checked before present-day use. Hosted-model references are included and are not local installation records.
+
+## Current tools and references
+
+- [Local LLM memory calculator](https://localclaw.io/local-llm-memory-calculator): estimate weight memory, context KV cache, runtime buffers and system headroom. Share a calculation with all its inputs or export it as CSV. The formula and original architecture sources are visible; results are planning estimates, not measured benchmarks.
+- [LocalClaw resource hub](https://localclaw.io/resources): tools, references and the distinction between this historical CC BY 4.0 release and newer datasets.
+- [Current model compatibility guide](https://localclaw.io/#local-ai-index): use the maintained model pages and original sources for current choices.
 
 This repository is designed for builders who need a clean answer to one deceptively hard question:
 
@@ -16,10 +24,10 @@ This repository is designed for builders who need a clean answer to one deceptiv
 
 | Dataset | JSON | CSV | Records |
 | --- | --- | --- | ---: |
-| Local LLMs | [`data/llms.json`](data/llms.json) | [`data/llms.csv`](data/llms.csv) | 188 |
-| TTS / ASR / speech models | [`data/tts.json`](data/tts.json) | [`data/tts.csv`](data/tts.csv) | 57 |
+| Local LLMs | [`data/llms.json`](data/llms.json) | [`data/llms.csv`](data/llms.csv) | 191 |
+| TTS / ASR / speech models | [`data/tts.json`](data/tts.json) | [`data/tts.csv`](data/tts.csv) | 58 |
 | Local AI machines | [`data/machines.json`](data/machines.json) | [`data/machines.csv`](data/machines.csv) | 15 |
-| Full bundle | [`data/local-ai-database.json`](data/local-ai-database.json) | - | 260 |
+| Full bundle | [`data/local-ai-database.json`](data/local-ai-database.json) | - | 264 |
 
 The data focuses on practical local usage:
 
@@ -130,7 +138,7 @@ Field documentation:
 
 ## Source and update policy
 
-The database is generated from the curated LocalClaw metadata used on [localclaw.io](https://localclaw.io/).
+This historical release was generated from the curated LocalClaw metadata used on [localclaw.io](https://localclaw.io/).
 
 The goal is not to pretend that one benchmark decides everything. The goal is to expose practical metadata that helps people choose local models responsibly:
 
@@ -162,13 +170,13 @@ Citation metadata is available in [`CITATION.cff`](CITATION.cff).
 
 ## License
 
-Data is released under [Creative Commons Attribution 4.0](LICENSE).
+The data published in this repository is released under [Creative Commons Attribution 4.0](LICENSE). This licence does not extend to later LocalClaw website datasets, compatibility analyses, or third-party model weights and software. See the [current dataset scope](https://localclaw.io/resources#dataset).
 
 Scripts and examples are released under the MIT license in [`CODE_LICENSE`](CODE_LICENSE).
 
 ## Links
 
 - Website: [localclaw.io](https://localclaw.io/)
-- LLM explorer: [localclaw.io/llm-list.html](https://localclaw.io/llm-list.html)
-- TTS explorer: [localclaw.io/tts-list.html](https://localclaw.io/tts-list.html)
-- Computers for local AI: [localclaw.io/computers.html](https://localclaw.io/computers.html)
+- LLM explorer: [localclaw.io/llm-list.html](https://localclaw.io/llm-list)
+- TTS explorer: [localclaw.io/tts-list.html](https://localclaw.io/tts-list)
+- Computers for local AI: [localclaw.io/computers.html](https://localclaw.io/computers)
